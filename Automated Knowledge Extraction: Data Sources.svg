@@ -1,0 +1,67 @@
+<svg width="1600" height="900" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Calibri, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+  
+  <text x="100" y="100" font-size="44px" font-weight="bold" fill="#000000">Automated Knowledge Extraction: Data Sources</text>
+  <line x1="100" y1="125" x2="160" y2="125" stroke="#007F60" stroke-width="5" />
+  
+  <text x="100" y="180" font-size="22px" fill="#404040"
+    font-family="Segoe UI, Calibri, sans-serif">
+    <tspan x="100" dy="1.2em">The Robot Task Knowledge Base (RTKB) is populated by fusing knowledge from two primary,</tspan>
+    <tspan x="100" dy="1.2em">multimodal data streams, which are augmented by a third, symbolic stream.</tspan>
+  </text>
+  
+  <defs>
+    <linearGradient id="grad-1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#2E4A8A;"/><stop offset="100%" style="stop-color:#3B8A8A;"/></linearGradient>
+    <linearGradient id="grad-2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#3B8A5A;"/><stop offset="100%" style="stop-color:#3B8A8A;"/></linearGradient>
+    <linearGradient id="grad-3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#A84A6A;"/><stop offset="100%" style="stop-color:#D46A4A;"/></linearGradient>
+  </defs>
+
+  <style>
+    .box-title { font-size: 22px; font-weight: bold; fill: white; }
+    .box-body { font-size: 18px; fill: white; line-height: 1.4; }
+  </style>
+
+  <rect x="100" y="300" width="450" height="470" rx="15" fill="url(#grad-1)" />
+  <text x="130" y="350" class="box-title">1. Real-World Demonstrations</text>
+  <text x="130" y="390" class="box-body">
+    <tspan x="130" dy="1.4em">• <tspan style="font-weight:bold;">Visual:</tspan> Multi-View &amp; Egocentric</tspan>
+    <tspan x="130" dy="1.4em">  RGB, Stereo Depth.</tspan>
+    <tspan x="130" dy="1.8em">• <tspan style="font-weight:bold;">Audio:</tspan> Microphone (for sound-based</tspan>
+    <tspan x="130" dy="1.4em">  property inference, e.g., 'clink').</tspan>
+    <tspan x="130" dy="1.8em">• <tspan style="font-weight:bold;">Intrinsic Sensors:</tspan> Joint States,</tspan>
+    <tspan x="130" dy="1.4em">  Force/Torque, Haptic Feedback,</tspan>
+    <tspan x="130" dy="1.4em">  IMU (Inertial Measurement Unit).¹</tspan>
+    <tspan x="130" dy="1.8em">• <tspan style="font-weight:bold;">Paired Metadata:</tspan> Action Traces,</tspan>
+    <tspan x="130" dy="1.4em">  Chain-of-Thought (CoT) text,²</tspan>
+    <tspan x="130" dy="1.4em">  &amp; language instructions.</tspan>
+  </text>
+
+  <rect x="575" y="300" width="450" height="470" rx="15" fill="url(#grad-2)" />
+  <text x="605" y="350" class="box-title">2. Simulated Episodes</text>
+  <text x="605" y="390" class="box-body">
+    <tspan x="605" dy="1.4em">• <tspan style="font-weight:bold;">Visual:</tspan> Multi-View Synthetic RGB,</tspan>
+    <tspan x="605" dy="1.4em">  Depth, &amp; Segmentation.</tspan>
+    <tspan x="605" dy="1.8em">• <tspan style="font-weight:bold;">Ground-Truth Physics:</tspan> Universal</tspan>
+    <tspan x="605" dy="1.4em">  Scene Description (USD) files³</tspan>
+    <tspan x="605" dy="1.4em">  containing perfect mass, friction,</tspan>
+    <tspan x="605" dy="1.4em">  geometry, &amp; scene hierarchy.</tspan>
+    <tspan x="605" dy="1.8em">• <tspan style="font-weight:bold;">Paired Metadata:</tspan> Simulated Action</tspan>
+    <tspan x="605" dy="1.4em">  Traces &amp; auto-generated CoT text.</tspan>
+  </text>
+  
+  <rect x="1050" y="300" width="450" height="470" rx="15" fill="url(#grad-3)" />
+  <text x="1080" y="350" class="box-title">3. Declarative Stream</text>
+  <text x="1080" y="390" class="box-body">
+    <tspan x="1080" dy="1.4em">• <tspan style="font-weight:bold;">Source:</tspan> External, symbolic knowledge</tspan>
+    <tspan x="1080" dy="1.4em">  from human-authored documents.</tspan>
+    <tspan x="1080" dy="2.0em">• <tspan style="font-weight:bold;">Data Types:</tspan></tspan>
+    <tspan x="1080" dy="1.4em">  - Technical Manuals (e.g., IPC</tspan>
+    <tspan x="1080" dy="1.4em">    Quality Standards)⁴</tspan>
+    <tspan x="1080" dy="1.4em">  - Text Recipes &amp; Instructions</tspan>
+    <tspan x="1080" dy="1.4em">  - Domain-Specific Ontologies</tspan>
+  </text>
+  
+  <text x="100" y="850" font-size="14px" fill="#808080">
+    Sources: ¹[arXiv:2502.05086] REASSEMBLE (2025). | ²[arXiv:2201.11903] Chain-of-Thought Prompting... (2022). | ³[openusd.org] Pixar's Universal Scene Description. | ⁴[ipc.org] IPC-A-610 Standard.
+  </text>
+</svg>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1600"
+   height="900"
+   font-family="Segoe UI, Calibri, sans-serif"
+   version="1.1"
+   id="svg24"
+   sodipodi:docname="Knowledge Pipeline 22: Population &amp; Fusion Architecture.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview24"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.81460865"
+     inkscape:cx="739.61896"
+     inkscape:cy="610.72271"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="66"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg24" />
+  <rect
+     width="100%"
+     height="100%"
+     fill="#FFFFFF"
+     id="rect1" />
+  <text
+     x="100"
+     y="100"
+     font-size="44px"
+     font-weight="bold"
+     fill="#000000"
+     id="text1">Knowledge Pipeline (2/2): Population &amp; Fusion Architecture</text>
+  <line
+     x1="100"
+     y1="125"
+     x2="160"
+     y2="125"
+     stroke="#007F60"
+     stroke-width="5"
+     id="line1" />
+  <text
+     x="800"
+     y="180"
+     font-size="20px"
+     fill="#404040"
+     text-anchor="middle"
+     id="text2">From Extraction &amp; Correlation Engine...</text>
+  <line
+     x1="800"
+     y1="200"
+     x2="800"
+     y2="240"
+     stroke="#404040"
+     stroke-width="3"
+     marker-end="url(#arrowhead)"
+     id="line2" />
+  <text
+     x="800"
+     y="270"
+     font-size="18px"
+     fill="#000000"
+     text-anchor="middle"
+     font-style="italic"
+     id="text3">Fused Properties (e.g., 'obj_123.material: plastic', 'obj_456.is_fragile')</text>
+  <path
+     d="M 800 290 L 800 320 L 450 320 L 450 360"
+     stroke="#404040"
+     stroke-width="3"
+     marker-end="url(#arrowhead)"
+     fill="none"
+     id="path3" />
+  <path
+     d="M 800 290 L 800 320 L 1150 320 L 1150 360"
+     stroke="#404040"
+     stroke-width="3"
+     marker-end="url(#arrowhead)"
+     fill="none"
+     id="path4" />
+  <defs
+     id="defs9">
+    <linearGradient
+       id="grad-path-a"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#A84A6A;"
+         id="stop4" />
+      <stop
+         offset="100%"
+         style="stop-color:#D46A4A;"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="grad-path-b"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#2E4A8A;"
+         id="stop6" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="grad-kb"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#D49A3A;"
+         id="stop8" />
+      <stop
+         offset="100%"
+         style="stop-color:#D46A4A;"
+         id="stop9" />
+    </linearGradient>
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="8"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#404040"
+         id="polygon9" />
+    </marker>
+  </defs>
+  <style
+     id="style9">
+    .path-title { font-size: 22px; font-weight: bold; fill: #000000; text-anchor: middle; }
+    .box-title { font-size: 20px; font-weight: bold; fill: white; text-anchor: middle; }
+    .box-body { font-size: 16px; fill: white; text-anchor: middle; line-height: 1.4; }
+  </style>
+  <text
+     x="446.50089"
+     y="310.97202"
+     class="path-title"
+     id="text9">PATH A: SYMBOLIC/GRAPH FUSION</text>
+  <rect
+     x="250"
+     y="380"
+     width="400"
+     height="100"
+     rx="15"
+     fill="url(#grad-path-a)"
+     id="rect9" />
+  <text
+     x="450"
+     y="420"
+     class="box-title"
+     id="text10">Graph Compiler</text>
+  <text
+     x="450"
+     y="450"
+     class="box-body"
+     id="text11">(Converts facts to graph triples)</text>
+  <line
+     x1="450"
+     y1="480"
+     x2="450"
+     y2="520"
+     class="arrow"
+     id="line11" />
+  <rect
+     x="250"
+     y="520"
+     width="400"
+     height="100"
+     rx="15"
+     fill="url(#grad-path-a)"
+     id="rect11" />
+  <text
+     x="450"
+     y="560"
+     class="box-title"
+     id="text12">Graph Neural Network (GNN) Encoder</text>
+  <text
+     x="450"
+     y="590"
+     class="box-body"
+     id="text13">(Creates graph-aware embeddings for nodes)</text>
+  <line
+     x1="450"
+     y1="620"
+     x2="450"
+     y2="660"
+     class="arrow"
+     id="line13" />
+  <text
+     x="1145.9104"
+     y="312.55124"
+     class="path-title"
+     id="text14">PATH B: SEMANTIC/VISUAL FUSION</text>
+  <rect
+     x="950"
+     y="380"
+     width="400"
+     height="100"
+     rx="15"
+     fill="url(#grad-path-b)"
+     id="rect14" />
+  <text
+     x="1150"
+     y="420"
+     class="box-title"
+     id="text15">Multimodal Fusion Module</text>
+  <text
+     x="1150"
+     y="450"
+     class="box-body"
+     id="text16">(Fuses Visual, Text, &amp; Sensor embeddings)</text>
+  <line
+     x1="1150"
+     y1="480"
+     x2="1150"
+     y2="520"
+     class="arrow"
+     id="line16" />
+  <rect
+     x="950"
+     y="520"
+     width="400"
+     height="100"
+     rx="15"
+     fill="url(#grad-path-b)"
+     id="rect16" />
+  <text
+     x="1150"
+     y="560"
+     class="box-title"
+     id="text17">Fused Multimodal Embeddings</text>
+  <text
+     x="1150"
+     y="590"
+     class="box-body"
+     id="text18">(Single vector for semantic search)</text>
+  <line
+     x1="1150"
+     y1="620"
+     x2="1150"
+     y2="660"
+     class="arrow"
+     id="line18" />
+  <rect
+     x="400"
+     y="660"
+     width="800"
+     height="180"
+     rx="15"
+     fill="url(#grad-kb)"
+     id="rect18" />
+  <text
+     x="800"
+     y="700"
+     class="box-title"
+     id="text19">FINAL ROBOT TASK KNOWLEDGE BASE (RTKB)</text>
+  <rect
+     x="420"
+     y="730"
+     width="370"
+     height="90"
+     rx="5"
+     fill="rgba(255,255,255,0.1)"
+     id="rect19" />
+  <text
+     x="605"
+     y="755"
+     class="box-title"
+     font-size="16px"
+     id="text20">Neo4j Graph DB (from Path A)</text>
+  <text
+     x="605"
+     y="785"
+     class="box-body"
+     font-size="14px"
+     id="text21">Stores symbolic facts, relations, &amp; GNN embeddings</text>
+  <rect
+     x="810"
+     y="730"
+     width="370"
+     height="90"
+     rx="5"
+     fill="rgba(255,255,255,0.1)"
+     id="rect21" />
+  <text
+     x="995"
+     y="755"
+     class="box-title"
+     font-size="16px"
+     id="text22">FAISS¹ Vector Store (from Path B)</text>
+  <text
+     x="995"
+     y="785"
+     class="box-body"
+     font-size="14px"
+     id="text23">Stores fused embeddings for semantic query</text>
+  <text
+     x="100"
+     y="870"
+     font-size="14px"
+     fill="#808080"
+     id="text24">
+    Sources: ¹[github.com/facebookresearch/faiss] FAISS (Facebook AI Similarity Search).
+  </text>
+</svg>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1600"
+   height="900"
+   font-family="Segoe UI, Calibri, sans-serif"
+   version="1.1"
+   id="svg23"
+   sodipodi:docname="Knowledge Pipeline 12-Extraction Correlation.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.95299244"
+     inkscape:cx="938.62234"
+     inkscape:cy="678.38943"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="66"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg23"
+     showgrid="false" />
+  <rect
+     width="100%"
+     height="100%"
+     fill="#FFFFFF"
+     id="rect1" />
+  <text
+     x="100"
+     y="100"
+     font-size="44px"
+     font-weight="bold"
+     fill="#000000"
+     id="text1">Knowledge Pipeline (1/2): Extraction &amp; Correlation</text>
+  <line
+     x1="100"
+     y1="125"
+     x2="160"
+     y2="125"
+     stroke="#007F60"
+     stroke-width="5"
+     id="line1" />
+  <defs
+     id="defs6">
+    <linearGradient
+       id="grad-input"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#2E4A8A;"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="grad-engine"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#7A4A8A;"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#5A4A8A;"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="grad-fuse"
+       x1="173.20508"
+       y1="1616.5808"
+       x2="519.61524"
+       y2="1962.9909"
+       gradientTransform="matrix(2.8551523,0,0,0.4330127,-188.04123,0)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#3B8A5A;"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;"
+         id="stop6" />
+    </linearGradient>
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="8"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#404040"
+         id="polygon6" />
+    </marker>
+  </defs>
+  <style
+     id="style6">
+    .box-title { font-size: 20px; font-weight: bold; fill: white; text-anchor: middle; }
+    .box-body { font-size: 16px; fill: white; text-anchor: middle; line-height: 1.4; }
+    .arrow { stroke: #404040; stroke-width: 3; marker-end: url(#arrowhead); fill: none; }
+    .arrow-label { font-size: 16px; fill: #000000; text-anchor: middle; font-style: italic; }
+    .fact-box { font-size: 15px; fill: #000000; text-anchor: start; }
+  </style>
+  <rect
+     x="100"
+     y="200"
+     width="600"
+     height="200"
+     rx="15"
+     fill="url(#grad-input)"
+     id="rect6" />
+  <text
+     x="400"
+     y="240"
+     class="box-title"
+     id="text6">Stream 1: Real-World Data (Time-Synced)</text>
+  <text
+     x="400"
+     y="270"
+     class="box-body"
+     id="text8"><tspan
+       x="400"
+       dy="1.4em"
+       id="tspan6">• Visual/Audio: (RGB, Depth, Mic)</tspan><tspan
+       x="400"
+       dy="1.4em"
+       id="tspan7">• Sensor: (Force, Joint States, IMU)</tspan><tspan
+       x="400"
+       dy="1.4em"
+       id="tspan8">• Paired Text: (CoT, Action Traces, Instruction)</tspan></text>
+  <rect
+     x="900"
+     y="200"
+     width="600"
+     height="200"
+     rx="15"
+     fill="url(#grad-input)"
+     id="rect8" />
+  <text
+     x="1200"
+     y="240"
+     class="box-title"
+     id="text9">Stream 2  3: Sim  Declarative Data</text>
+  <text
+     x="1200"
+     y="270"
+     class="box-body"
+     id="text10"><tspan
+       x="1200"
+       dy="1.4em"
+       id="tspan9">• Ground Truth: (USD Files, Sim Logs)</tspan><tspan
+       x="1200"
+       dy="1.4em"
+       id="tspan10">• Symbolic: (Text Manuals, Recipes)</tspan></text>
+  <line
+     x1="400"
+     y1="400"
+     x2="400"
+     y2="450"
+     class="arrow"
+     id="line10" />
+  <line
+     x1="1200"
+     y1="400"
+     x2="1200"
+     y2="450"
+     class="arrow"
+     id="line11" />
+  <rect
+     x="100"
+     y="450"
+     width="1400"
+     height="200"
+     rx="15"
+     fill="url(#grad-engine)"
+     id="rect11" />
+  <text
+     x="800"
+     y="490"
+     class="box-title"
+     id="text11">Extraction Layer (Parallel Processing)</text>
+  <text
+     x="250"
+     y="540"
+     class="box-body"
+     text-anchor="middle"
+     id="text12">• Visual Engine (SAM¹, DETR²)</text>
+  <text
+     x="250"
+     y="565"
+     class="box-body"
+     text-anchor="middle"
+     id="text13">Extracts: BBox, Pose, 'shiny'</text>
+  <text
+     x="575"
+     y="540"
+     class="box-body"
+     text-anchor="middle"
+     id="text14">• Sensor  Audio Engine</text>
+  <text
+     x="575"
+     y="565"
+     class="box-body"
+     text-anchor="middle"
+     id="text15">Extracts: '8N force', 'clink sound'</text>
+  <text
+     x="925"
+     y="540"
+     class="box-body"
+     text-anchor="middle"
+     id="text16">• Text  CoT Engine (LLM: Gemini)</text>
+  <text
+     x="925"
+     y="565"
+     class="box-body"
+     text-anchor="middle"
+     id="text17">Extracts: &quot;'glass' cup&quot;, &quot;be 'careful'&quot;</text>
+  <text
+     x="1300"
+     y="540"
+     class="box-body"
+     text-anchor="middle"
+     id="text18">• Ground-Truth Engine</text>
+  <text
+     x="1300"
+     y="565"
+     class="box-body"
+     text-anchor="middle"
+     id="text19">Extracts: 'mass: 0.8kg' (from USD)</text>
+  <line
+     x1="800"
+     y1="650"
+     x2="800"
+     y2="700"
+     class="arrow"
+     id="line19" />
+  <text
+     x="909.27832"
+     y="676.73621"
+     class="arrow-label"
+     id="text20">Extracted, Uncorrelated Facts</text>
+  <rect
+     x="306.48563"
+     y="700"
+     width="989.05371"
+     height="150"
+     rx="18.544758"
+     fill="url(#grad-fuse)"
+     id="rect20"
+     style="fill:url(#grad-fuse);stroke-width:1.1119" />
+  <text
+     x="800"
+     y="740"
+     class="box-title"
+     id="text21">Knowledge Fusion  Correlation Engine</text>
+  <text
+     x="800"
+     y="770"
+     class="box-body"
+     id="text22"><tspan
+       x="800"
+       dy="1.4em"
+       id="tspan21">Correlates simultaneous, time-synced signals to infer new properties:</tspan><tspan
+       x="800"
+       dy="1.4em"
+       style="font-family: Consolas, monospace; fill: #FFFFFF;"
+       id="tspan22">Visual('shiny') + Audio('clink') + Text(&quot;'glass'&quot;) → Fused Property: (:Object {material: 'glass'})</tspan></text>
+  <text
+     x="100"
+     y="870"
+     font-size="14px"
+     fill="#808080"
+     id="text23">
+    Sources: ¹[arXiv:2304.07153] Segment Anything (SAM). | ²[arXiv:2005.12872] DE:TR.
+  </text>
+</svg>
