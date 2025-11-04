@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1600"
+   height="900"
+   font-family="Segoe UI, Calibri, sans-serif"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="Hardware &amp; Compute Requirements.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.84840134"
+     inkscape:cx="905.8213"
+     inkscape:cy="370.6972"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="66"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg30" />
+  <rect
+     width="100%"
+     height="100%"
+     fill="#FFFFFF"
+     id="rect1" />
+  <text
+     x="100"
+     y="100"
+     font-size="44px"
+     font-weight="bold"
+     fill="#000000"
+     id="text1">Hardware &amp; Compute Requirements</text>
+  <text
+     x="100"
+     y="150"
+     font-size="22px"
+     fill="#404040"
+     id="text2">Year 1 Infrastructure &amp; Budget</text>
+  <line
+     x1="100"
+     y1="125"
+     x2="160"
+     y2="125"
+     stroke="#007F60"
+     stroke-width="5"
+     id="line2" />
+  <style
+     id="style2">
+    .col-title { font-size: 24px; font-weight: bold; fill: #000000; }
+    .col-body { font-size: 20px; fill: #404040; line-height: 1.6; }
+    .box-title { font-size: 20px; font-weight: bold; fill: white; }
+    .box-body { font-size: 18px; fill: white; line-height: 1.5; }
+  </style>
+  <text
+     x="100"
+     y="220"
+     class="col-title"
+     id="text3">Robot Platform &amp; Sensors</text>
+  <text
+     x="100"
+     y="260"
+     class="col-body"
+     id="text7"><tspan
+       x="100"
+       dy="1.5em"
+       style="font-weight:bold;"
+       id="tspan3">Rainbow Robotics RBY-1</tspan><tspan
+       x="100"
+       dy="1.5em"
+       id="tspan4">• Dual 7-DOF arms (3kg payload)</tspan><tspan
+       x="100"
+       dy="1.5em"
+       id="tspan5">• Omnidirectional mobile base</tspan><tspan
+       x="100"
+       dy="1.5em"
+       id="tspan6">• 3x RGB cameras (1080p, 30fps)</tspan><tspan
+       x="100"
+       dy="1.5em"
+       id="tspan7">• Force/torque sensors (6-axis)</tspan></text>
+  <text
+     x="100"
+     y="470"
+     class="col-title"
+     id="text8">Training Workstation</text>
+  <text
+     x="100"
+     y="510"
+     class="col-body"
+     id="text10"><tspan
+       x="100"
+       dy="1.5em"
+       id="tspan8">• 4x NVIDIA A100 (40GB) OR 8x V100</tspan><tspan
+       x="100"
+       dy="1.5em"
+       id="tspan9">• 128GB RAM, 2TB NVMe SSD</tspan><tspan
+       x="100"
+       dy="1.5em"
+       id="tspan10">• Cost: $25K cloud / $60K purchase</tspan></text>
+  <text
+     x="100"
+     y="650"
+     class="col-title"
+     id="text11">Human Interface</text>
+  <text
+     x="100"
+     y="690"
+     class="col-body"
+     id="text12"><tspan
+       x="100"
+       dy="1.5em"
+       id="tspan11">• SpaceMouse Pro: $400</tspan><tspan
+       x="100"
+       dy="1.5em"
+       id="tspan12">• Leader arm (optional): $5K</tspan></text>
+  <text
+     x="850"
+     y="220"
+     class="col-title"
+     id="text13">Compute Budget &amp; Storage</text>
+  <defs
+     id="defs18">
+    <linearGradient
+       id="grad-blue"
+       x1="447.29959"
+       y1="494.07602"
+       x2="789.35222"
+       y2="836.12865"
+       gradientTransform="matrix(1.9002924,0,0,0.56593549,-2.9733369,-48.693862)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#2E4A8A;"
+         id="stop13" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       id="grad-green"
+       x1="408.32679"
+       y1="957.56636"
+       x2="720.57669"
+       y2="1269.8163"
+       gradientTransform="matrix(2.081666,0,0,0.53659184,-3.8520288,-80.050527)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#3B8A5A;"
+         id="stop15" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;"
+         id="stop16" />
+    </linearGradient>
+    <linearGradient
+       id="grad-purple"
+       x1="447.29959"
+       y1="1197.1842"
+       x2="789.35222"
+       y2="1539.2368"
+       gradientTransform="matrix(1.9002924,0,0,0.56962519,-3.1168599,-67.35252)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#7A4A8A;"
+         id="stop17" />
+      <stop
+         offset="100%"
+         style="stop-color:#5A4A8A;"
+         id="stop18" />
+    </linearGradient>
+  </defs>
+  <rect
+     x="847.02667"
+     y="230.9213"
+     width="650"
+     height="193.57973"
+     rx="15"
+     fill="url(#grad-blue)"
+     id="rect18"
+     style="fill:url(#grad-blue);stroke-width:1.03704" />
+  <text
+     x="877.02667"
+     y="270.9213"
+     class="box-title"
+     id="text18">Training Compute (Year 1)</text>
+  <text
+     x="877.76093"
+     y="288.49759"
+     class="box-body"
+     id="text21"><tspan
+       x="877.76093"
+       dy="27"
+       id="tspan18">• VLA fine-tuning: 672 GPU-hours</tspan><tspan
+       x="877.76093"
+       dy="27"
+       id="tspan19">• KB encoder: 144 GPU-hours</tspan><tspan
+       x="877.76093"
+       dy="27"
+       id="tspan20">• RLHF policy: 480 GPU-hours</tspan><tspan
+       x="877.76093"
+       dy="27"
+       style="font-weight:bold"
+       id="tspan21">• Total: ~1,300 GPU-hours ≈ $8K</tspan></text>
+  <rect
+     x="846.14795"
+     y="433.77176"
+     width="650"
+     height="167.55075"
+     rx="15"
+     fill="url(#grad-green)"
+     id="rect21"
+     style="fill:url(#grad-green);stroke-width:1.05688" />
+  <text
+     x="876.14795"
+     y="473.77176"
+     class="box-title"
+     id="text22">Inference Performance</text>
+  <text
+     x="876.14795"
+     y="489.41068"
+     class="box-body"
+     id="text25"><tspan
+       x="876.14795"
+       dy="27"
+       id="tspan22">• VLA forward: 50ms on A100</tspan><tspan
+       x="876.14795"
+       dy="27"
+       id="tspan24">• KB query: <tspan
+   style="font-weight:bold"
+   id="tspan23">&lt;10ms (cached)</tspan></tspan><tspan
+       x="876.14795"
+       dy="27"
+       style="font-weight:bold"
+       id="tspan25">• Total latency: 60ms (20 Hz)</tspan></text>
+  <rect
+     x="846.88312"
+     y="614.59375"
+     width="650"
+     height="194.8418"
+     rx="15"
+     fill="url(#grad-purple)"
+     id="rect25"
+     style="fill:url(#grad-purple);stroke-width:1.04041" />
+  <text
+     x="876.88312"
+     y="654.59375"
+     class="box-title"
+     id="text26">Storage Requirements</text>
+  <text
+     x="873.75146"
+     y="665.74237"
+     class="box-body"
+     id="text29"><tspan
+       x="873.75146"
+       dy="27"
+       id="tspan26">• Raw demos: 50K episodes ≈ 15TB</tspan><tspan
+       x="873.75146"
+       dy="27"
+       id="tspan27">• Processed dataset: ~3TB</tspan><tspan
+       x="873.75146"
+       dy="27"
+       id="tspan28">• KB graph: 50GB</tspan><tspan
+       x="873.75146"
+       dy="27"
+       style="font-weight:bold"
+       id="tspan29">• Total: ~5TB Year 1</tspan></text>
+  <text
+     x="100"
+     y="850"
+     font-size="14px"
+     fill="#808080"
+     id="text30">
+    Latency Basis: The &lt;60ms target is based on VLA forward pass (50ms on A100) + a cached KB query (&lt;10ms). This architecture is designed to meet a 20Hz control loop.
+  </text>
+</svg>

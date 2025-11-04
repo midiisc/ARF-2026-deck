@@ -1,0 +1,64 @@
+<svg width="1600" height="900" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Calibri, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+  
+  <text x="100" y="100" font-size="44px" font-weight="bold" fill="#000000">12-Month Execution Timeline &amp; Milestones</text>
+  <text x="100" y="150" font-size="22px" fill="#404040">Quarterly Breakdown with Parallel Workstreams</text>
+  <line x1="100" y1="125" x2="160" y2="125" stroke="#007F60" stroke-width="5" />
+
+  <defs>
+    <linearGradient id="grad-q1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#2E4A8A;"/><stop offset="100%" style="stop-color:#3B8A8A;"/></linearGradient>
+    <linearGradient id="grad-q2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#3B8A5A;"/><stop offset="100%" style="stop-color:#3B8A8A;"/></linearGradient>
+    <linearGradient id="grad-q3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#7A4A8A;"/><stop offset="100%" style="stop-color:#5A4A8A;"/></linearGradient>
+    <linearGradient id="grad-q4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#A84A6A;"/><stop offset="100%" style="stop-color:#D46A4A;"/></linearGradient>
+  </defs>
+
+  <style>
+    .quad-title { font-size: 22px; font-weight: bold; fill: white; }
+    .quad-body { font-size: 18px; fill: white; line-height: 1.5; }
+    .quad-kpi { font-size: 18px; fill: #E0E0E0; font-weight: bold; line-height: 1.5; }
+  </style>
+
+  <rect x="100" y="200" width="680" height="300" rx="15" fill="url(#grad-q1)" />
+  <text x="130" y="250" class="quad-title">Q1 (Months 1-3): Foundation &amp; Infrastructure</text>
+  <text x="130" y="290" class="quad-body">
+    <tspan x="130" dy="1.5em">• RBY-1 platform setup</tspan>
+    <tspan x="130" dy="1.5em">• Deploy baseline OpenVLA</tspan>
+    <tspan x="130" dy="1.5em">• Multi-camera calibration</tspan>
+    <tspan x="130" dy="1.5em">• Initial KB schema design</tspan>
+  </text>
+  <text x="130" y="450" class="quad-kpi">Milestone: Baseline VLA performance established.</text>
+  
+  <rect x="820" y="200" width="680" height="300" rx="15" fill="url(#grad-q2)" />
+  <text x="850" y="250" class="quad-title">Q2 (Months 4-6): KB Development &amp; Data</text>
+  <text x="850" y="290" class="quad-body">
+    <tspan x="850" dy="1.5em">• 3-stream KB population</tspan>
+    <tspan x="850" dy="1.5em">• VLA-KB query interface</tspan>
+    <tspan x="850" dy="1.5em">• Generate 20K demos</tspan>
+    <tspan x="850" dy="1.5em">• Scale KB to 7K entities</tspan>
+  </text>
+  <text x="850" y="450" class="quad-kpi">Milestone: Achieve +5% task success over baseline.</text>
+  
+  <rect x="100" y="520" width="680" height="300" rx="15" fill="url(#grad-q3)" />
+  <text x="130" y="570" class="quad-title">Q3 (Months 7-9): CoT Training &amp; RLHF</text>
+  <text x="130" y="610" class="quad-body">
+    <tspan x="130" dy="1.5em">• Generate 25K CoT-annotated episodes</tspan>
+    <tspan x="130" dy="1.5em">• Fine-tune VLA with KB+CoT</tspan>
+    <tspan x="130" dy="1.5em">• Implement reward model (for RLHF)</tspan>
+    <tspan x="130" dy="1.5em">• XR interface (optional)</tspan>
+  </text>
+  <text x="130" y="770" class="quad-kpi">Milestone: Achieve +10% task success (CoT + KB-grounded).</text>
+  
+  <rect x="820" y="520" width="680" height="300" rx="15" fill="url(#grad-q4)" />
+  <text x="850" y="570" class="quad-title">Q4 (Months 10-12): Evaluation &amp; Scaling</text>
+  <text x="850" y="610" class="quad-body">
+    <tspan x="850" dy="1.5em">• Comprehensive evaluation</tspan>
+    <tspan x="850" dy="1.5em">• Scale KB to 10K+ entities</tspan>
+    <tspan x="850" dy="1.5em">• Publication &amp; open-source</tspan>
+    <tspan x="850" dy="1.5em">• Achieve all targets</tspan>
+  </text>
+  <text x="850" y="770" class="quad-kpi">Milestone: Achieve all Y1 targets (&gt;15% success, &lt;60ms latency).</text>
+  
+  <text x="100" y="850" font-size="14px" fill="#808080">
+    Milestones show a graded progression to achieve the Year 1 targets from the 3-Year Roadmap.
+  </text>
+</svg>
