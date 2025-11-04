@@ -21,44 +21,44 @@
   <rect x="100" y="200" width="680" height="300" rx="15" fill="url(#grad-q1)" />
   <text x="130" y="250" class="quad-title">Q1 (Months 1-3): Foundation &amp; Infrastructure</text>
   <text x="130" y="290" class="quad-body">
-    <tspan x="130" dy="1.5em">• RBY-1 platform setup</tspan>
+    <tspan x="130" dy="1.5em">• RBY-1 platform setup &amp; calibration</tspan>
     <tspan x="130" dy="1.5em">• Deploy baseline OpenVLA</tspan>
-    <tspan x="130" dy="1.5em">• Multi-camera calibration</tspan>
-    <tspan x="130" dy="1.5em">• Initial KB schema design</tspan>
+    <tspan x="130" dy="1.5em">• Initial KB schema design (RDF/OWL)¹</tspan>
+    <tspan x="130" dy="1.5em">• Develop v0.1 Data Ingestion Pipeline</tspan>
   </text>
   <text x="130" y="450" class="quad-kpi">Milestone: Baseline VLA performance established.</text>
   
   <rect x="820" y="200" width="680" height="300" rx="15" fill="url(#grad-q2)" />
-  <text x="850" y="250" class="quad-title">Q2 (Months 4-6): KB Development &amp; Data</text>
+  <text x="850" y="250" class="quad-title">Q2 (Months 4-6): KB Engine Development</text>
   <text x="850" y="290" class="quad-body">
-    <tspan x="850" dy="1.5em">• 3-stream KB population</tspan>
-    <tspan x="850" dy="1.5em">• VLA-KB query interface</tspan>
-    <tspan x="850" dy="1.5em">• Generate 20K demos</tspan>
-    <tspan x="850" dy="1.5em">• Scale KB to 7K entities</tspan>
+    <tspan x="850" dy="1.5em">• Build v1.0 Extraction &amp; Correlation Engine</tspan>
+    <tspan x="850" dy="1.5em">  (SAM², USD Parser³, LLM Correlator)</tspan>
+    <tspan x="850" dy="1.5em">• Develop VLA-KB query interface</tspan>
+    <tspan x="850" dy="1.5em">• Begin automated KB population (from 20K demos)</tspan>
   </text>
   <text x="850" y="450" class="quad-kpi">Milestone: Achieve +5% task success over baseline.</text>
   
   <rect x="100" y="520" width="680" height="300" rx="15" fill="url(#grad-q3)" />
-  <text x="130" y="570" class="quad-title">Q3 (Months 7-9): CoT Training &amp; RLHF</text>
+  <text x="130" y="570" class="quad-title">Q3 (Months 7-9): CoT Training &amp; Pipeline Refinement</text>
   <text x="130" y="610" class="quad-body">
-    <tspan x="130" dy="1.5em">• Generate 25K CoT-annotated episodes</tspan>
-    <tspan x="130" dy="1.5em">• Fine-tune VLA with KB+CoT</tspan>
-    <tspan x="130" dy="1.5em">• Implement reward model (for RLHF)</tspan>
-    <tspan x="130" dy="1.5em">• XR interface (optional)</tspan>
+    <tspan x="130" dy="1.5em">• Refine pipeline (add Audio/Sensor fusion)</tspan>
+    <tspan x="130" dy="1.5em">• Fine-tune VLA with KB + Chain-of-Thought (CoT)⁴</tspan>
+    <tspan x="130" dy="1.5em">• Implement Reward Model for RLHF⁵</tspan>
+    <tspan x="130" dy="1.5em">• Scale KB to 7K+ entities &amp; 25K CoT episodes</tspan>
   </text>
   <text x="130" y="770" class="quad-kpi">Milestone: Achieve +10% task success (CoT + KB-grounded).</text>
   
   <rect x="820" y="520" width="680" height="300" rx="15" fill="url(#grad-q4)" />
   <text x="850" y="570" class="quad-title">Q4 (Months 10-12): Evaluation &amp; Scaling</text>
   <text x="850" y="610" class="quad-body">
-    <tspan x="850" dy="1.5em">• Comprehensive evaluation</tspan>
-    <tspan x="850" dy="1.5em">• Scale KB to 10K+ entities</tspan>
+    <tspan x="850" dy="1.5em">• Conduct comprehensive evaluation (Layers 1-3)</tspan>
+    <tspan x="850" dy="1.5em">• Finalize 10K+ entity KB &amp; v1.0 pipeline</tspan>
     <tspan x="850" dy="1.5em">• Publication &amp; open-source</tspan>
-    <tspan x="850" dy="1.5em">• Achieve all targets</tspan>
+    <tspan x="850" dy="1.5em">• Achieve all Year 1 targets</tspan>
   </text>
   <text x="850" y="770" class="quad-kpi">Milestone: Achieve all Y1 targets (&gt;15% success, &lt;60ms latency).</text>
   
   <text x="100" y="850" font-size="14px" fill="#808080">
-    Milestones show a graded progression to achieve the Year 1 targets from the 3-Year Roadmap.
+    Sources: ¹RDF: Resource Description Framework. | ²SAM: Segment Anything Model [arXiv:2304.07153]. | ³USD: Universal Scene Description [openusd.org]. | ⁴CoT: Chain-of-Thought [arXiv:2201.11903]. | ⁵RLHF: Reinforcement Learning from Human Feedback.
   </text>
 </svg>

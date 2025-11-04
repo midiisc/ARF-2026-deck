@@ -4,7 +4,7 @@
    height="900"
    font-family="Segoe UI, Calibri, sans-serif"
    version="1.1"
-   id="svg67"
+   id="svg66"
    sodipodi:docname="Three-Year Development Roadmap.svg"
    inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -12,7 +12,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview67"
+     id="namedview66"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -20,15 +20,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.95012777"
-     inkscape:cx="569.3971"
-     inkscape:cy="900.40521"
+     inkscape:zoom="0.7485147"
+     inkscape:cx="804.25942"
+     inkscape:cy="433.52522"
      inkscape:window-width="1854"
      inkscape:window-height="1011"
      inkscape:window-x="66"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg67" />
+     inkscape:current-layer="svg66" />
   <rect
      width="100%"
      height="100%"
@@ -63,7 +63,7 @@
        y1="557.77335"
        x2="537.85287"
        y2="557.77335"
-       gradientTransform="matrix(2.7888668,0,0,0.37426302,-3.3460608,-50.066774)"
+       gradientTransform="matrix(2.7888668,0,0,0.38656425,-3.2505781,-57.284345)"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0%"
@@ -80,7 +80,7 @@
        y1="1115.5467"
        x2="537.85287"
        y2="1115.5467"
-       gradientTransform="matrix(2.7888668,0,0,0.37566592,-4.5622584,-62.668133)"
+       gradientTransform="matrix(2.7888668,0,0,0.3907177,-2.1258735,-75.142643)"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0%"
@@ -97,7 +97,7 @@
        y1="1673.3201"
        x2="537.85287"
        y2="1673.3201"
-       gradientTransform="matrix(2.7888668,0,0,0.40253558,-4.969453,-116.6715)"
+       gradientTransform="matrix(2.7888668,0,0,0.39381013,-3.0017128,-93.969895)"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0%"
@@ -119,336 +119,335 @@
     .footer { font-size: 14px; fill: #808080; }
   </style>
   <rect
-     x="96.653938"
-     y="158.68716"
+     x="96.74942"
+     y="158.33089"
      width="1400"
-     height="187.87854"
+     height="194.05371"
      rx="15"
      fill="url(#grad-y1)"
      id="rect7"
-     style="fill:url(#grad-y1);stroke-width:1.02165" />
+     style="fill:url(#grad-y1);stroke-width:1.0383" />
   <text
-     x="111.34024"
-     y="182.5575"
+     x="126.74942"
+     y="179.33089"
      class="block-title"
      id="text7">Year 1: Foundation &amp; Core Integration</text>
   <line
-     x1="110.29565"
-     y1="190.53601"
-     x2="1450.2957"
-     y2="190.53601"
+     x1="126.74942"
+     y1="194.33089"
+     x2="1466.7494"
+     y2="194.33089"
      stroke="#ffffff"
      stroke-opacity="0.3"
      id="line7" />
   <text
-     x="112.40445"
-     y="206.22263"
+     x="126.74942"
+     y="210.3309"
      class="block-heading"
      id="text8">Focus:</text>
   <text
-     x="112.40445"
-     y="236.22263"
+     x="126.74942"
+     y="240.3309"
      class="block-body"
-     id="text9"><tspan
-       sodipodi:role="line"
-       id="tspan67"
-       x="112.40445"
-       y="236.22263">Prove viability of KB-VLA integration. System moves</tspan><tspan
-       sodipodi:role="line"
-       id="tspan68"
-       x="112.40445"
-       y="258.72263">from a reactive VLA to a <tspan
-   style="font-weight:bold"
-   id="tspan8">fact-grounded, safer planner</tspan></tspan><tspan
-       sodipodi:role="line"
-       x="112.40445"
-       y="281.22263"
-       id="tspan69">using<tspan
-   style="font-weight:bold"
-   id="tspan9">OpenVLA</tspan>.¹</tspan></text>
-  <text
-     x="582.40442"
-     y="206.22263"
-     class="block-heading"
-     id="text10">Targets:</text>
-  <text
-     x="582.40442"
-     y="236.22263"
-     class="block-body"
-     id="text19"><tspan
-       x="582.40442"
-       dy="0"
-       id="tspan11">• KB Scale: <tspan
-   style="font-weight:bold"
-   id="tspan10">10K+ entities</tspan> &amp; relations</tspan><tspan
-       x="582.40442"
-       dy="25.199999"
-       id="tspan13">• Data Scale: <tspan
-   style="font-weight:bold"
-   id="tspan12">50K+ demos</tspan> (real + sim)</tspan><tspan
-       x="582.40442"
-       dy="25.199999"
-       id="tspan15">• KPI (Task Success): <tspan
-   style="font-weight:bold"
-   id="tspan14">&gt;15% improvement</tspan> over baseline</tspan><tspan
-       x="582.40442"
-       dy="25.199999"
-       id="tspan17">• KPI (Generalization): <tspan
-   style="font-weight:bold"
-   id="tspan16">&gt;70% success</tspan> on novel objects</tspan><tspan
-       x="582.40442"
-       dy="25.199999"
-       id="tspan19">• KPI (Latency): <tspan
-   style="font-weight:bold"
-   id="tspan18">&lt;60ms</tspan> (VLA + KB query)</tspan></text>
-  <text
-     x="1132.4044"
-     y="206.22263"
-     class="block-heading"
-     id="text20">Deliverables:</text>
-  <text
-     x="1132.4044"
-     y="236.22263"
-     class="block-body"
-     id="text21">Paper | Code | Dataset | Trained models</text>
-  <rect
-     x="95.437744"
-     y="356.40475"
-     width="1400"
-     height="188.58279"
-     rx="15"
-     fill="url(#grad-y2)"
-     id="rect21"
-     style="fill:url(#grad-y2);stroke-width:1.02356" />
-  <text
-     x="121.43774"
-     y="379.40475"
-     class="block-title"
-     id="text22">Year 2: Advanced Reasoning &amp; Multi-Modal</text>
-  <line
-     x1="121.43774"
-     y1="386.40475"
-     x2="1461.4377"
-     y2="386.40475"
-     stroke="#ffffff"
-     stroke-opacity="0.3"
-     id="line22" />
-  <text
-     x="123.43774"
-     y="404.40475"
-     class="block-heading"
-     id="text23">Focus:</text>
-  <text
-     x="123.43774"
-     y="434.40475"
-     class="block-body"
-     id="text25"
+     id="text10"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0"><tspan
+       sodipodi:role="line"
+       id="tspan69"
+       x="126.74942"
+       y="240.3309">Prove viability by building the v1.0 extraction</tspan><tspan
        sodipodi:role="line"
        id="tspan70"
-       x="123.43774"
-       y="434.40475">Scale complexity and fluency. Integrate hierarchical</tspan><tspan
+       x="126.74942"
+       y="262.8309">pipeline&amp; a fact-grounded, safer planner</tspan><tspan
        sodipodi:role="line"
-       id="tspan71"
-       x="123.43774"
-       y="456.90475">planning (CoT) for longer tasks and experiment</tspan><tspan
-       sodipodi:role="line"
-       x="123.43774"
-       y="479.40475"
-       id="tspan72">with π0 (Pi-Zero)² for smoother motion.</tspan></text>
+       x="126.74942"
+       y="285.3309"
+       id="tspan71">using OpenVLA.¹</tspan></text>
   <text
-     x="593.43774"
-     y="404.40475"
+     x="596.74945"
+     y="210.3309"
      class="block-heading"
-     id="text26">Targets:</text>
+     id="text11">Targets:</text>
   <text
-     x="593.43774"
-     y="434.40475"
+     x="596.74945"
+     y="240.3309"
      class="block-body"
-     id="text36"><tspan
-       x="593.43774"
+     id="text20"><tspan
+       x="596.74945"
        dy="0"
-       id="tspan27">• KB Scale: <tspan
+       id="tspan12">• KB Scale: <tspan
    style="font-weight:bold"
-   id="tspan26">25K+ entities</tspan></tspan><tspan
-       x="593.43774"
+   id="tspan11">10K+ entities</tspan> &amp; relations</tspan><tspan
+       x="596.74945"
        dy="25.199999"
-       id="tspan29">• Data Scale: <tspan
+       id="tspan14">• Data Scale: <tspan
    style="font-weight:bold"
-   id="tspan28">150K+ demos</tspan> (adding tactile)</tspan><tspan
-       x="593.43774"
+   id="tspan13">50K+ demos</tspan> (real + sim)</tspan><tspan
+       x="596.74945"
        dy="25.199999"
-       id="tspan32">• KPI (Long-Horizon): <tspan
+       id="tspan16">• KPI (Task Success): <tspan
    style="font-weight:bold"
-   id="tspan30">&gt;85% success</tspan> on <tspan
-   style="font-weight:bold"
-   id="tspan31">10+ step tasks</tspan></tspan><tspan
-       x="593.43774"
+   id="tspan15">&gt;15% improvement</tspan> over baseline</tspan><tspan
+       x="596.74945"
        dy="25.199999"
-       id="tspan34">• KPI (Collaboration): Demonstrate <tspan
+       id="tspan18">• KPI (Generalization): <tspan
    style="font-weight:bold"
-   id="tspan33">multi-robot coordination</tspan></tspan><tspan
-       x="593.43774"
+   id="tspan17">&gt;70% success</tspan> on novel objects</tspan><tspan
+       x="596.74945"
        dy="25.199999"
-       id="tspan36">• KPI (Latency): <tspan
+       id="tspan20">• KPI (Latency): <tspan
    style="font-weight:bold"
-   id="tspan35">&lt;30ms</tspan></tspan></text>
+   id="tspan19">&lt;60ms</tspan> (VLA + KB query)</tspan></text>
   <text
-     x="1143.4377"
-     y="404.40475"
+     x="1146.7494"
+     y="210.3309"
      class="block-heading"
-     id="text37">Deliverables:</text>
+     id="text21">Deliverables:</text>
   <text
-     x="1143.4377"
-     y="434.40475"
+     x="1146.7494"
+     y="240.3309"
      class="block-body"
-     id="text38">ICRA/CoRL papers | Enhanced</text>
-  <text
-     x="1143.4377"
-     y="459.40475"
-     class="block-body"
-     id="text39">framework | π0 integration</text>
+     id="text22">Paper | Code | Dataset | Trained models</text>
   <rect
-     x="95.030548"
-     y="556.89935"
+     x="97.87413"
+     y="360.72119"
      width="1400"
-     height="202.07126"
+     height="196.13873"
      rx="15"
-     fill="url(#grad-y3)"
-     id="rect39"
-     style="fill:url(#grad-y3);stroke-width:1.05954" />
+     fill="url(#grad-y2)"
+     id="rect22"
+     style="fill:url(#grad-y2);stroke-width:1.04387" />
   <text
-     x="121.03055"
-     y="579.89935"
+     x="127.87413"
+     y="381.72119"
      class="block-title"
-     id="text40">Year 3: Production Deployment &amp; Commercialization</text>
+     id="text23">Year 2: Advanced Reasoning &amp; Multi-Modal</text>
   <line
-     x1="121.03055"
-     y1="594.89935"
-     x2="1461.0305"
-     y2="594.89935"
+     x1="127.87413"
+     y1="396.72119"
+     x2="1467.8741"
+     y2="396.72119"
      stroke="#ffffff"
      stroke-opacity="0.3"
-     id="line40" />
+     id="line23" />
   <text
-     x="121.03055"
-     y="612.89935"
+     x="127.87413"
+     y="414.72119"
      class="block-heading"
-     id="text41">Focus:</text>
+     id="text24">Focus:</text>
   <text
-     x="121.03055"
-     y="642.89935"
+     x="127.87413"
+     y="444.72119"
      class="block-body"
-     id="text45"
+     id="text26"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0"><tspan
        sodipodi:role="line"
+       id="tspan72"
+       x="127.87413"
+       y="444.72119">Scale complexity. Enhance extraction pipeline</tspan><tspan
+       sodipodi:role="line"
        id="tspan73"
-       x="121.03055"
-       y="642.89935">Optimize for robustness and autonomy. Deploy a</tspan><tspan
+       x="127.87413"
+       y="467.22119">with new modalities (e.g., Audio, Tactile) and</tspan><tspan
        sodipodi:role="line"
-       id="tspan74"
-       x="121.03055"
-       y="665.39935">custom VLA and enable Lifelong Learning,</tspan><tspan
-       sodipodi:role="line"
-       x="121.03055"
-       y="687.89935"
-       id="tspan75">transitioning KB from read-only to read-write.</tspan></text>
+       x="127.87413"
+       y="489.72119"
+       id="tspan74">integrate hierarchical (CoT) planning for π0 (Pi-Zero).²</tspan></text>
   <text
-     x="591.03052"
-     y="612.89935"
+     x="597.87415"
+     y="414.72119"
      class="block-heading"
-     id="text46">Targets:</text>
+     id="text27">Targets:</text>
   <text
-     x="591.03052"
-     y="642.89935"
+     x="597.87415"
+     y="444.72119"
      class="block-body"
-     id="text55"><tspan
-       x="591.03052"
+     id="text37"><tspan
+       x="597.87415"
        dy="0"
-       id="tspan47">• KB Scale: <tspan
+       id="tspan28">• KB Scale: <tspan
    style="font-weight:bold"
-   id="tspan46">50K+ entities</tspan> (autonomously updated)</tspan><tspan
-       x="591.03052"
+   id="tspan27">25K+ entities</tspan></tspan><tspan
+       x="597.87415"
        dy="25.199999"
-       id="tspan49">• Data Scale: <tspan
+       id="tspan30">• Data Scale: <tspan
    style="font-weight:bold"
-   id="tspan48">500K+ demos</tspan> (from pilots)</tspan><tspan
-       x="591.03052"
+   id="tspan29">150K+ demos</tspan> (adding tactile)</tspan><tspan
+       x="597.87415"
        dy="25.199999"
-       id="tspan51">• KPI (Production): <tspan
+       id="tspan33">• KPI (Long-Horizon): <tspan
    style="font-weight:bold"
-   id="tspan50">&gt;90% success</tspan> in 3 industrial pilots</tspan><tspan
-       x="591.03052"
+   id="tspan31">&gt;85% success</tspan> on <tspan
+   style="font-weight:bold"
+   id="tspan32">10+ step tasks</tspan></tspan><tspan
+       x="597.87415"
        dy="25.199999"
-       id="tspan53">• KPI (Autonomy): Robot <tspan
+       id="tspan35">• KPI (Collaboration): Demonstrate <tspan
    style="font-weight:bold"
-   id="tspan52">autonomously updates its own KB</tspan></tspan><tspan
-       x="591.03052"
+   id="tspan34">multi-robot coordination</tspan></tspan><tspan
+       x="597.87415"
        dy="25.199999"
-       id="tspan55">• KPI (Latency): <tspan
+       id="tspan37">• KPI (Latency): <tspan
    style="font-weight:bold"
-   id="tspan54">&lt;15ms</tspan> (for edge deployment)</tspan></text>
+   id="tspan36">&lt;30ms</tspan></tspan></text>
   <text
-     x="1141.0305"
-     y="612.89935"
+     x="1147.8741"
+     y="414.72119"
      class="block-heading"
-     id="text56">Deliverables:</text>
+     id="text38">Deliverables:</text>
   <text
-     x="1141.0305"
-     y="642.89935"
+     x="1147.8741"
+     y="444.72119"
      class="block-body"
-     id="text57">3 industrial pilots | TRL 7 |</text>
+     id="text39">ICRA/CoRL papers | Enhanced</text>
   <text
-     x="1141.0305"
-     y="667.89935"
+     x="1147.8741"
+     y="469.72119"
      class="block-body"
-     id="text58">Commercialization</text>
+     id="text40">framework | π0 integration</text>
+  <rect
+     x="96.998283"
+     y="565.00049"
+     width="1400"
+     height="197.69112"
+     rx="15"
+     fill="url(#grad-y3)"
+     id="rect40"
+     style="fill:url(#grad-y3);stroke-width:1.04799" />
+  <text
+     x="126.99828"
+     y="586.00049"
+     class="block-title"
+     id="text41">Year 3: Production Deployment &amp; Commercialization</text>
+  <line
+     x1="126.99828"
+     y1="601.00049"
+     x2="1466.9983"
+     y2="601.00049"
+     stroke="#ffffff"
+     stroke-opacity="0.3"
+     id="line41" />
+  <text
+     x="126.99828"
+     y="617.00049"
+     class="block-heading"
+     id="text42">Focus:</text>
+  <text
+     x="126.99828"
+     y="647.00049"
+     class="block-body"
+     id="text44"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0"><tspan
+       sodipodi:role="line"
+       id="tspan75"
+       x="126.99828"
+       y="647.00049">Optimize for robustness. Transition pipeline to</tspan><tspan
+       sodipodi:role="line"
+       id="tspan76"
+       x="126.99828"
+       y="669.50049">an autonomous, self-improving(Lifelong Learning)</tspan><tspan
+       sodipodi:role="line"
+       x="126.99828"
+       y="692.00049"
+       id="tspan77">loop and deploy a custom VLA.</tspan></text>
+  <text
+     x="596.99829"
+     y="617.00049"
+     class="block-heading"
+     id="text45">Targets:</text>
+  <text
+     x="596.99829"
+     y="647.00049"
+     class="block-body"
+     id="text54"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0"><tspan
+       sodipodi:role="line"
+       id="tspan78"
+       x="596.99829"
+       y="647.00049">• KB Scale: 50K+ entities (autonomously updated)</tspan><tspan
+       sodipodi:role="line"
+       id="tspan79"
+       x="596.99829"
+       y="669.50049">• Data Scale: 500K+ demos (from pilots)</tspan><tspan
+       sodipodi:role="line"
+       x="596.99829"
+       y="692.00049"
+       id="tspan81">• KPI (Production): &gt;90% success in 3 industrial pilots</tspan><tspan
+       sodipodi:role="line"
+       x="596.99829"
+       y="714.50049"
+       id="tspan82">• KPI (Autonomy): Robot autonomously updates its own KB</tspan><tspan
+       sodipodi:role="line"
+       x="596.99829"
+       y="737.00049"
+       id="tspan83">• KPI (Latency): &lt;15ms (for edge deployment)</tspan></text>
+  <text
+     x="1146.9983"
+     y="617.00049"
+     class="block-heading"
+     id="text55">Deliverables:</text>
+  <text
+     x="1146.9983"
+     y="647.00049"
+     class="block-body"
+     id="text56">3 industrial pilots | TRL 7 |</text>
+  <text
+     x="1146.9983"
+     y="672.00049"
+     class="block-body"
+     id="text57">Commercialization</text>
   <text
      x="325"
      y="810"
      class="cumulative-title"
-     id="text59">KB Scale</text>
+     id="text58">KB Scale</text>
   <text
      x="325"
      y="840"
      class="cumulative-body"
-     id="text60">10K → 25K → 50K+ entities</text>
+     id="text59">10K → 25K → 50K+ entities</text>
   <text
      x="650"
      y="810"
      class="cumulative-title"
-     id="text61">Task Complexity</text>
+     id="text60">Task Complexity</text>
   <text
      x="650"
      y="840"
      class="cumulative-body"
-     id="text62">5 → 10 → 20+ step tasks</text>
+     id="text61">5 → 10 → 20+ step tasks</text>
   <text
      x="975"
      y="810"
      class="cumulative-title"
-     id="text63">Success Rate</text>
+     id="text62">Success Rate</text>
   <text
      x="975"
      y="840"
      class="cumulative-body"
-     id="text64">70% → 85% → 90%+ production</text>
+     id="text63">70% → 85% → 90%+ production</text>
   <text
      x="1300"
      y="810"
      class="cumulative-title"
-     id="text65">Publications</text>
+     id="text64">Publications</text>
   <text
      x="1300"
      y="840"
      class="cumulative-body"
-     id="text66">3-4 conferences &amp; 1-2 journals</text>
+     id="text65">3-4 conferences &amp; 1-2 journals</text>
   <text
-     x="100"
-     y="880"
+     x="94.384102"
+     y="868.02661"
      font-size="14px"
      fill="#808080"
-     id="text67">
-    Justification: The &gt;15% Y1 target is from KB-grounding. The &gt;85% Y2 target is unlocked by hierarchical CoT planning. The 15ms Y3 latency is the target for a custom, edge-deployed VLA.
-  </text>
+     id="text66"><tspan
+       sodipodi:role="line"
+       id="tspan84"
+       x="94.384102"
+       y="868.02661">Justification: The &gt;15% Y1 target is from KB-grounding. The &gt;85% Y2 target is unlocked by hierarchical CoT planning. The 15ms Y3 latency is the target for a custom, edge-deployed VLA. Sources: ¹[openvla.github.io] OpenVLA. |</tspan><tspan
+       sodipodi:role="line"
+       id="tspan85"
+       x="94.384102"
+       y="885.52661">²[physicalintelligence.company] π0 (Pi-Zero).</tspan></text>
 </svg>
