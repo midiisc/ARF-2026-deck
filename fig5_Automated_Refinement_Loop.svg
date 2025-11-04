@@ -1,0 +1,92 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Calibri, sans-serif">
+  
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E4A8A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B8A8A;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D49A3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D46A4A;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B8A5A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B8A8A;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A84A6A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D46A4A;stop-opacity:1" />
+    </linearGradient>
+
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white" />
+    </marker>
+  </defs>
+
+  <style>
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      fill: white;
+      text-anchor: middle;
+    }
+    .body {
+      font-size: 16px;
+      fill: white;
+      text-anchor: middle;
+    }
+    .arrow {
+      stroke: white;
+      stroke-width: 2.5;
+      marker-end: url(#arrowhead);
+    }
+    .arrow-label {
+      font-size: 18px;
+      font-weight: bold;
+      fill: white;
+      text-anchor: middle;
+    }
+  </style>
+
+  <rect width="100%" height="100%" fill="#0E1A2B" />
+
+  <rect x="375" y="40" width="250" height="80" rx="15" fill="url(#grad1)" />
+  <text x="500" y="85" class="title">Robot Executes</text>
+  <line x1="500" y1="120" x2="500" y2="150" class="arrow" />
+
+  <rect x="375" y="150" width="250" height="80" rx="15" fill="url(#grad1)" />
+  <text x="500" y="195" class="title">Generate CoT</text>
+  <line x1="500" y1="230" x2="500" y2="260" class="arrow" />
+  
+  <rect x="375" y="260" width="250" height="80" rx="15" fill="url(#grad2)" />
+  <text x="500" y="305" class="title">PRM + KB Verify</text>
+  <line x1="500" y1="340" x2="500" y2="370" class="arrow" />
+
+  <path d="M 500 370 L 650 450 L 500 530 L 350 450 Z" fill="url(#grad2)" />
+  <text x="500" y="440" class="body">
+    <tspan x="500">If (score &lt; threshold</tspan>
+    <tspan x="500" dy="1.4em">OR KB mismatch):</tspan>
+  </text>
+  
+  <line x1="650" y1="450" x2="750" y2="450" class="arrow" />
+  <text x="700" y="440" class="arrow-label">Yes</text>
+  <rect x="750" y="370" width="200" height="160" rx="15" fill="url(#grad4)" />
+  <text x="850" y="410" class="title">Correction</text>
+  <text x="850" y="450" class="body">
+    <tspan x="850" dy="0">1. Flag</tspan>
+    <tspan x="850" dy="1.4em">2. Human corrects</tspan>
+    <tspan x="850" dy="1.4em">3. Update KB</tspan>
+  </text>
+  <path d="M 850 530 Q 850 630 500 630 Q 150 630 150 450 Q 150 200 375 200" stroke="white" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="8"/>
+  <text x="130" y="300" class="arrow-label" transform="rotate(-90 130 300)">Retraining Feedback</text>
+
+  <line x1="500" y1="530" x2="500" y2="560" class="arrow" />
+  <text x="470" y="555" class="arrow-label">No</text>
+  <rect x="375" y="560" width="250" height="100" rx="15" fill="url(#grad3)" />
+  <text x="500" y="600" class="title">Execute Confidently</text>
+  <text x="500" y="630" class="body">(Log CoT)</text>
+
+</svg>

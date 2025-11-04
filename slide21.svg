@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1600"
+   height="900"
+   font-family="Segoe UI, Calibri, sans-serif"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="slide21.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.8430912"
+     inkscape:cx="469.70008"
+     inkscape:cy="472.66535"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="66"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <rect
+     width="100%"
+     height="100%"
+     fill="#FFFFFF"
+     id="rect1" />
+  <text
+     x="100"
+     y="100"
+     font-size="44px"
+     font-weight="bold"
+     fill="#000000"
+     id="text1">A Multi-Layered Evaluation Protocol</text>
+  <line
+     x1="100"
+     y1="125"
+     x2="160"
+     y2="125"
+     stroke="#007F60"
+     stroke-width="5"
+     id="line1" />
+  <text
+     x="100"
+     y="180"
+     font-size="22px"
+     fill="#404040"
+     font-family="Segoe UI, Calibri, sans-serif"
+     id="text4"
+     style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:26.6667px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#404040"><tspan
+       x="100"
+       dy="1.2em"
+       id="tspan1"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:26.66666667px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">A complex VLA-KB-CoT planner cannot be evaluated monolithically. A failure in the final task</tspan><tspan
+       x="100"
+       dy="1.2em"
+       id="tspan2"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:26.66666667px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">provides no insight into the root cause.¹</tspan><tspan
+       x="100"
+       dy="1.2em"
+       id="tspan3"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:26.66666667px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">We will adopt a rigorous protocol to test the agent at all levels, from its individual components</tspan><tspan
+       x="100"
+       dy="1.2em"
+       id="tspan4"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:26.66666667px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">to the fully integrated system, allowing for precise bottleneck identification.²</tspan></text>
+  <defs
+     id="defs9">
+    <linearGradient
+       id="grad-l1"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#2E4A8A;"
+         id="stop4" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="grad-l2"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#3B8A5A;"
+         id="stop6" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="grad-l3"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#7A4A8A;"
+         id="stop8" />
+      <stop
+         offset="100%"
+         style="stop-color:#5A4A8A;"
+         id="stop9" />
+    </linearGradient>
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="8"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#404040"
+         id="polygon9" />
+    </marker>
+  </defs>
+  <style
+     id="style9">
+    .diag-title { font-size: 24px; font-weight: bold; fill: white; text-anchor: middle; }
+    .diag-subtitle { font-size: 20px; font-weight: bold; fill: white; text-anchor: middle; }
+    .diag-body { font-size: 18px; fill: #e0e0e0; text-anchor: middle; }
+    .diag-arrow { stroke: #404040; stroke-width: 3; marker-end: url(#arrowhead); fill: none; }
+  </style>
+  <rect
+     x="100"
+     y="400"
+     width="433"
+     height="350"
+     rx="15"
+     fill="url(#grad-l1)"
+     id="rect9" />
+  <text
+     x="316.5"
+     y="470"
+     class="diag-title"
+     id="text9">Layer 1: Component Diagnostics</text>
+  <text
+     x="316.5"
+     y="510"
+     class="diag-subtitle"
+     id="text10">(The &quot;Brain&quot;)</text>
+  <text
+     x="316.5"
+     y="580"
+     class="diag-body"
+     id="text12"
+     style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#e0e0e0"><tspan
+       x="316.5"
+       dy="0"
+       id="tspan10"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">VLA → ManipBench</tspan><tspan
+       x="316.5"
+       dy="1.5em"
+       id="tspan11"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">KB → PhysBench</tspan><tspan
+       x="316.5"
+       dy="1.5em"
+       id="tspan12"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">CoT → ERQA</tspan></text>
+  <text
+     x="316.5"
+     y="700"
+     class="diag-subtitle"
+     id="text13">KPI: MCQ Accuracy  Uplift</text>
+  <line
+     x1="533"
+     y1="575"
+     x2="583"
+     y2="575"
+     class="diag-arrow"
+     id="line13" />
+  <rect
+     x="583"
+     y="400"
+     width="434"
+     height="350"
+     rx="15"
+     fill="url(#grad-l2)"
+     id="rect13" />
+  <text
+     x="800"
+     y="470"
+     class="diag-title"
+     id="text14">Layer 2: Decoupled Planning</text>
+  <text
+     x="800"
+     y="510"
+     class="diag-subtitle"
+     id="text15">(The &quot;Plan&quot;)</text>
+  <text
+     x="800"
+     y="595"
+     class="diag-body"
+     id="text16"
+     style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#e0e0e0"><tspan
+       x="800"
+       dy="0"
+       id="tspan15"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Evaluate logical plan output</tspan><tspan
+       x="800"
+       dy="1.5em"
+       id="tspan16"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Benchmark: CookBench (Stage 1)³</tspan></text>
+  <text
+     x="800"
+     y="700"
+     class="diag-subtitle"
+     id="text17">KPI: Plan Accuracy %</text>
+  <line
+     x1="1017"
+     y1="575"
+     x2="1067"
+     y2="575"
+     class="diag-arrow"
+     id="line17" />
+  <rect
+     x="1067"
+     y="400"
+     width="433"
+     height="350"
+     rx="15"
+     fill="url(#grad-l3)"
+     id="rect17" />
+  <text
+     x="1283.5"
+     y="470"
+     class="diag-title"
+     id="text18">Layer 3: Integrated System</text>
+  <text
+     x="1283.5"
+     y="510"
+     class="diag-subtitle"
+     id="text19">(The &quot;Body&quot;)</text>
+  <text
+     x="1283.5"
+     y="580"
+     class="diag-body"
+     id="text20"
+     style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#e0e0e0"><tspan
+       x="1283.5"
+       dy="0"
+       id="tspan19"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Home: BEHAVIOR-1K⁴</tspan><tspan
+       x="1283.5"
+       dy="1.5em"
+       id="tspan20"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Industrial: RAMP⁵</tspan></text>
+  <text
+     x="1283.5"
+     y="700"
+     class="diag-subtitle"
+     id="text21">Primary KPI: Task Success Rate %</text>
+  <text
+     x="100"
+     y="850"
+     font-size="14px"
+     fill="#808080"
+     id="text22">
+    Sources: ¹[arXiv:2510.01642] FailSafe (2025). | ²[arXiv:2503.20020] Gemini Robotics (2025). | ³[arXiv:2508.03232] CookBench (2024). | ⁴[arXiv:2403.09227] BEHAVIOR-1K (2024). | ⁵[arXiv:2305.09644] RAMP (2023).
+  </text>
+</svg>

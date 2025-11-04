@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1800"
+   height="700"
+   font-family="Segoe UI, Calibri, sans-serif"
+   version="1.1"
+   id="svg42"
+   sodipodi:docname="use_case_scenario.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview42"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.69474727"
+     inkscape:cx="855.70685"
+     inkscape:cy="159.05064"
+     inkscape:window-width="1440"
+     inkscape:window-height="2523"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg42" />
+  <defs
+     id="defs12">
+    <marker
+       markerWidth="0.52499998"
+       markerHeight="0.99999995"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       id="CapTriangle"
+       viewBox="0 0 0.525 1"
+       inkscape:stockid="Triangle cap"
+       style="overflow:visible"
+       preserveAspectRatio="xMidYMid"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         style="fill:context-stroke;stroke-linecap:butt"
+         d="M 0,-1 1,0 0,1 -0.05,0 Z"
+         sodipodi:nodetypes="sssssscsss"
+         transform="scale(0.5)"
+         id="path61" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect46"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect45"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect44"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <linearGradient
+       id="grad-input"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#3A5AD4;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#2E4A8A;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="grad-vla"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#2E4A8A;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="grad-kb"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#3B8A5A;stop-opacity:1"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;stop-opacity:1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="grad-fuse"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#7A4A8A;stop-opacity:1"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#5A4A8A;stop-opacity:1"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="grad-cot"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#D49A3A;stop-opacity:1"
+         id="stop9" />
+      <stop
+         offset="100%"
+         style="stop-color:#D46A4A;stop-opacity:1"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="grad-action"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#A84A6A;stop-opacity:1"
+         id="stop11" />
+      <stop
+         offset="100%"
+         style="stop-color:#D46A4A;stop-opacity:1"
+         id="stop12" />
+    </linearGradient>
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="8"
+       refY="3.5"
+       orient="auto"
+       viewBox="0 0 10 7"
+       preserveAspectRatio="xMidYMid">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="white"
+         id="polygon12" />
+    </marker>
+    <marker
+       id="arrowhead-8"
+       markerWidth="10"
+       markerHeight="7"
+       refX="8"
+       refY="3.5"
+       orient="auto"
+       viewBox="0 0 10 7"
+       preserveAspectRatio="xMidYMid">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#ffffff"
+         id="polygon12-7" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#grad-kb"
+       id="linearGradient81"
+       x1="318.19805"
+       y1="424.26407"
+       x2="530.33009"
+       y2="636.3961"
+       gradientTransform="matrix(1.4142136,0,0,0.70710678,-10.011752,0.68648231)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#grad-kb"
+       id="linearGradient82"
+       x1="601.04076"
+       y1="424.26407"
+       x2="813.1728"
+       y2="636.3961"
+       gradientTransform="matrix(1.4142136,0,0,0.70710678,-26.512771,-0.41769065)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <style
+     id="style12">
+    .title { font-size: 20px; font-weight: bold; fill: white; text-anchor: middle; }
+    .body { font-size: 16px; fill: #e0e0e0; text-anchor: middle; }
+    .label { font-size: 14px; fill: #cccccc; text-anchor: middle; font-style: italic; }
+    .arrow { stroke: white; stroke-width: 2.5; marker-end: url(#arrowhead); fill: none; }
+    .data-label { font-size: 15px; font-weight: bold; fill: #3B8A8A; text-anchor: middle; }
+  </style>
+  <rect
+     width="100%"
+     height="100%"
+     fill="#0e1a2b"
+     id="rect12"
+     x="-4.187706"
+     y="33.023396" />
+  <text
+     x="903.15326"
+     y="68.73568"
+     class="title"
+     font-size="28px"
+     id="text12"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#ffffff">End-to-End Use Case: From Query to Trajectory</text>
+  <rect
+     x="50"
+     y="100"
+     width="300"
+     height="150"
+     rx="15"
+     fill="url(#grad-input)"
+     id="rect13" />
+  <text
+     x="200"
+     y="170"
+     class="title"
+     id="text13">1. Input</text>
+  <text
+     x="200"
+     y="200"
+     class="body"
+     id="text14"><tspan
+       x="200"
+       dy="0"
+       id="tspan13">Visual: Multi-Camera RGB</tspan><tspan
+       x="200"
+       dy="1.4em"
+       id="tspan14">Language: &quot;Get the fragile cup&quot;</tspan></text>
+  <line
+     x1="200"
+     y1="250"
+     x2="200"
+     y2="300"
+     class="arrow"
+     id="line14" />
+  <text
+     x="277.84286"
+     y="274.75574"
+     class="data-label"
+     id="text15">Raw Pixels + Text String</text>
+  <rect
+     x="50"
+     y="300"
+     width="300"
+     height="150"
+     rx="15"
+     fill="url(#grad-vla)"
+     id="rect15" />
+  <text
+     x="200"
+     y="370"
+     class="title"
+     id="text16">2. VLA Encoder</text>
+  <text
+     x="200"
+     y="400"
+     class="body"
+     id="text17"><tspan
+       x="200"
+       dy="0"
+       id="tspan16">Encodes inputs into tokens</tspan><tspan
+       x="200"
+       dy="1.4em"
+       id="tspan17">Identifies entities (e.g., &quot;cup&quot;)</tspan></text>
+  <line
+     x1="200"
+     y1="450"
+     x2="200"
+     y2="499.91672"
+     class="arrow"
+     id="line17"
+     style="stroke-miterlimit:4;marker-end:url(#CapTriangle)" />
+  <text
+     x="295.42038"
+     y="472.13455"
+     class="data-label"
+     id="text18">Visual Tokens + Lang Embeds</text>
+  <line
+     x1="350"
+     y1="375"
+     x2="435.2399"
+     y2="375"
+     class="arrow"
+     id="line18" />
+  <text
+     x="400.12363"
+     y="341.173"
+     class="data-label"
+     id="text19"><tspan
+       sodipodi:role="line"
+       id="tspan43"
+       x="400.12363"
+       y="341.173">KB Query</tspan><tspan
+       sodipodi:role="line"
+       id="tspan44"
+       x="400.12363"
+       y="359.923">Trigger</tspan></text>
+  <rect
+     x="439.98825"
+     y="300.68649"
+     width="300"
+     height="150"
+     rx="15"
+     fill="url(#grad-kb)"
+     id="rect19"
+     style="fill:url(#linearGradient81)" />
+  <text
+     x="589.98822"
+     y="370.68649"
+     class="title"
+     id="text20">3. KB Query</text>
+  <text
+     x="589.98822"
+     y="400.68649"
+     class="body"
+     id="text21"><tspan
+       x="589.98822"
+       dy="0"
+       id="tspan20">Query: &quot;Properties of 'cup'?&quot;</tspan><tspan
+       x="589.98822"
+       dy="22.4"
+       id="tspan21">Query: &quot;Constraints for 'fragile'?&quot;</tspan></text>
+  <line
+     x1="739.93225"
+     y1="375"
+     x2="819.86328"
+     y2="375"
+     class="arrow"
+     id="line21" />
+  <text
+     x="776.91565"
+     y="361.63849"
+     class="data-label"
+     id="text22">KB Results</text>
+  <rect
+     x="823.48724"
+     y="299.58231"
+     width="300"
+     height="150"
+     rx="15"
+     fill="url(#grad-kb)"
+     id="rect22"
+     style="fill:url(#linearGradient82)" />
+  <text
+     x="973.48724"
+     y="369.58231"
+     class="title"
+     id="text23">4. KB Retrieval</text>
+  <text
+     x="973.48724"
+     y="399.58231"
+     class="body"
+     id="text24"><tspan
+       x="973.48724"
+       dy="0"
+       id="tspan23">Embeddings: [cup_props, ...]</tspan><tspan
+       x="973.48724"
+       dy="22.4"
+       id="tspan24">Constraints: {max_force: 2N}</tspan></text>
+  <text
+     x="888.62317"
+     y="466.10611"
+     class="data-label"
+     id="text25">KB Embeddings + Rules</text>
+  <rect
+     x="400"
+     y="500"
+     width="600"
+     height="150"
+     rx="15"
+     fill="url(#grad-fuse)"
+     id="rect25" />
+  <text
+     x="700"
+     y="570"
+     class="title"
+     id="text26">5. Token Fusion  Reasoning</text>
+  <text
+     x="700"
+     y="600"
+     class="body"
+     id="text27"><tspan
+       x="700"
+       dy="0"
+       id="tspan26">Cross-Attention(Visual Tokens, KB Embeddings)</tspan><tspan
+       x="700"
+       dy="1.4em"
+       id="tspan27">Generates augmented state</tspan></text>
+  <path
+     d="M 200 500 Q 300 520, 400 540"
+     class="arrow"
+     id="path27" />
+  <path
+     d="m 1002.0645,449.29193 -39.07041,47.49588"
+     class="arrow"
+     id="path28"
+     sodipodi:nodetypes="cc" />
+  <line
+     x1="1000.1816"
+     y1="591.18152"
+     x2="1287.9926"
+     y2="501.54684"
+     class="arrow"
+     id="line28" />
+  <text
+     x="1432.4631"
+     y="566.62329"
+     class="data-label"
+     id="text28">Augmented State</text>
+  <text
+     x="1211.2195"
+     y="559.79224"
+     class="data-label"
+     id="text28-7"
+     style="font-weight:bold;font-size:15px;text-anchor:middle;fill:#3b8a8a">Context for Planning</text>
+  <rect
+     x="1150"
+     y="100"
+     width="300"
+     height="400"
+     rx="15"
+     fill="url(#grad-cot)"
+     id="rect28" />
+  <text
+     x="1299.0488"
+     y="184.43726"
+     class="title"
+     id="text29">6. CoT Planner (LLM)</text>
+  <text
+     x="1435.5529"
+     y="187.13736"
+     class="body"
+     text-anchor="start"
+     font-size="15px"
+     id="text35"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#e0e0e0"><tspan
+       x="1300.5529"
+       dy="25.6"
+       id="tspan29"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">1. [Scene]: I see a cup on the table.</tspan><tspan
+       x="1300.5529"
+       dy="25.6"
+       id="tspan30"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">2. [KB Info]: KB states cup is 'fragile'</tspan><tspan
+       x="1300.5529"
+       dy="25.6"
+       id="tspan31"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">and 'max_force' is 2N.</tspan><tspan
+       x="1300.5529"
+       dy="25.6"
+       id="tspan32"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">3. [Plan]: I must approach slowly</tspan><tspan
+       x="1300.5529"
+       dy="25.6"
+       id="tspan33"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">and apply a gentle grasp.</tspan><tspan
+       x="1300.5529"
+       dy="25.6"
+       id="tspan34"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">4. [Action]: Plan a trajectory with</tspan><tspan
+       x="1300.5529"
+       dy="25.6"
+       id="tspan35"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">low acceleration and 2N force limit.</tspan></text>
+  <path
+     d="m 1001.0458,615.66009 c 181.9767,-2.89637 386.4493,20.01442 553.7755,-242.85081"
+     class="arrow"
+     stroke-dasharray="7.03978"
+     id="path35"
+     sodipodi:nodetypes="cc" />
+  <line
+     x1="1450"
+     y1="300"
+     x2="1550"
+     y2="300"
+     class="arrow"
+     id="line36" />
+  <text
+     x="1500"
+     y="285"
+     class="data-label"
+     id="text37">Actionable Plan</text>
+  <rect
+     x="1550"
+     y="225"
+     width="200"
+     height="150"
+     rx="15"
+     fill="url(#grad-action)"
+     id="rect37" />
+  <text
+     x="1650"
+     y="300"
+     class="title"
+     id="text38">7. Action Decoder</text>
+  <text
+     x="1650"
+     y="330"
+     class="body"
+     id="text39">Generates Action Tokens</text>
+  <line
+     x1="1650"
+     y1="375"
+     x2="1650"
+     y2="425"
+     class="arrow"
+     id="line39" />
+  <text
+     x="1607.1879"
+     y="400.62701"
+     class="data-label"
+     id="text40">Trajectory</text>
+  <rect
+     x="1550"
+     y="425"
+     width="200"
+     height="150"
+     rx="15"
+     fill="#FFFFFF"
+     id="rect40" />
+  <text
+     x="1650"
+     y="500"
+     class="title"
+     fill="#0E1A2B"
+     id="text41">8. Output</text>
+  <text
+     x="1647.665"
+     y="493.80725"
+     class="body"
+     fill="#0E1A2B"
+     id="text42"
+     style="fill:#000000;fill-opacity:1"><tspan
+       x="1647.665"
+       dy="0"
+       id="tspan41"
+       style="fill:#000000;fill-opacity:1">7-DOF + Gripper</tspan><tspan
+       x="1647.665"
+       dy="22.4"
+       id="tspan42"
+       style="fill:#000000;fill-opacity:1">Action Sequence</tspan></text>
+  <path
+     style="opacity:0.750322;fill:#000000;fill-opacity:1"
+     d="m 1003.6046,592.25195 c 0,0 126.1437,2.78807 126.1437,2.78807"
+     id="path44"
+     inkscape:path-effect="#path-effect44"
+     inkscape:original-d="m 1003.6046,592.25195 126.1437,2.78807" />
+  <path
+     style="opacity:0.750322;fill:#000000;fill-opacity:1"
+     d="m 1096.2148,586.72589 c 0,0 116.4079,29.77418 116.4079,29.77418"
+     id="path46"
+     inkscape:path-effect="#path-effect46"
+     inkscape:original-d="m 1096.2148,586.72589 116.4079,29.77418" />
+</svg>

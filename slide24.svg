@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1600"
+   height="900"
+   font-family="Segoe UI, Calibri, sans-serif"
+   version="1.1"
+   id="svg23"
+   sodipodi:docname="slide24.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.70207105"
+     inkscape:cx="702.20813"
+     inkscape:cy="420.89757"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="66"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg23" />
+  <rect
+     width="100%"
+     height="100%"
+     fill="#FFFFFF"
+     id="rect1" />
+  <text
+     x="100"
+     y="100"
+     font-size="44px"
+     font-weight="bold"
+     fill="#000000"
+     id="text1">Our Qualitative Advantage: The Constraint-Aware Scorecard</text>
+  <line
+     x1="100"
+     y1="125"
+     x2="160"
+     y2="125"
+     stroke="#007F60"
+     stroke-width="5"
+     id="line1" />
+  <style
+     id="style1">
+    .col-title { font-size: 28px; font-weight: bold; fill: #000000; }
+    .col-body { font-size: 20px; fill: #404040; line-height: 1.4; }
+    .box-title { font-size: 22px; font-weight: bold; fill: white; text-anchor: middle; }
+    .box-body { font-size: 18px; fill: white; text-anchor: middle; line-height: 1.4; }
+  </style>
+  <text
+     x="100"
+     y="220"
+     class="col-title"
+     id="text2">The Problem: The &quot;Planner-Evaluator Gap&quot;</text>
+  <text
+     x="100"
+     y="280"
+     class="col-body"
+     id="text8"
+     style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;line-height:1.4;fill:#404040"><tspan
+       x="100"
+       dy="1.4em"
+       id="tspan2"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">SOTA benchmarks like BEHAVIOR-1K often use</tspan><tspan
+       x="100"
+       dy="1.4em"
+       id="tspan3"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">binary, final-state evaluators (BDDL).¹</tspan><tspan
+       x="100"
+       dy="1.4em"
+       id="tspan5"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">They are &quot;blind&quot; to <tspan
+   style="font-weight:normal;fill:#A84A6A;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan4">how</tspan> a task was performed.</tspan><tspan
+       x="100"
+       dy="2.4em"
+       id="tspan6"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">They cannot measure critical path-based constraints</tspan><tspan
+       x="100"
+       dy="1.4em"
+       id="tspan7"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">like safety, smoothness, or orientation (e.g., spilling</tspan><tspan
+       x="100"
+       dy="1.4em"
+       id="tspan8"
+       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">a glass but delivering the last 10% of water).²</tspan></text>
+  <text
+     x="850"
+     y="220"
+     class="col-title"
+     id="text9">Our Solution: The &quot;Constraint-Aware Scorecard&quot;</text>
+  <text
+     x="853.61224"
+     y="243.09943"
+     class="col-body"
+     id="text12"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.4;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#404040"><tspan
+       x="853.61224"
+       dy="29.866667"
+       id="tspan9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">We will implement a unified evaluation module that</tspan><tspan
+       x="853.61224"
+       dy="29.866667"
+       id="tspan10"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">augments binary TSR with critical path-based metrics</tspan><tspan
+       x="853.61224"
+       dy="29.866667"
+       id="tspan12"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">from SOTA research to measure <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#007f60"
+   id="tspan11">execution quality</tspan>.³</tspan></text>
+  <defs
+     id="defs17">
+    <linearGradient
+       id="grad-m1"
+       x1="365.21859"
+       y1="977.4968"
+       x2="644.50339"
+       y2="1256.7816"
+       gradientTransform="matrix(2.6269188,0,0,0.42966892,-227.81635,-40.54497)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#D46A4A;"
+         id="stop12" />
+      <stop
+         offset="100%"
+         style="stop-color:#D49A3A;"
+         id="stop13" />
+    </linearGradient>
+    <linearGradient
+       id="grad-m2"
+       x1="365.21859"
+       y1="1303.3291"
+       x2="644.50339"
+       y2="1582.6139"
+       gradientTransform="matrix(2.644669,0,0,0.42966892,-236.83183,-40.54497)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#2E4A8A;"
+         id="stop14" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;"
+         id="stop15" />
+    </linearGradient>
+    <linearGradient
+       id="grad-m3"
+       x1="365.21859"
+       y1="1629.1613"
+       x2="644.50339"
+       y2="1908.4461"
+       gradientTransform="matrix(2.6422307,0,0,0.42966892,-234.94773,-40.54497)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#3B8A5A;"
+         id="stop16" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;"
+         id="stop17" />
+    </linearGradient>
+  </defs>
+  <rect
+     x="731.58319"
+     y="379.45502"
+     width="733.65851"
+     height="120"
+     rx="16.930582"
+     fill="url(#grad-m1)"
+     id="rect17"
+     style="fill:url(#grad-m1);stroke-width:1.06241" />
+  <text
+     x="1097.3663"
+     y="424.45502"
+     class="box-title"
+     id="text17">Smoothness Safety (for &quot;fragile objects&quot;)</text>
+  <text
+     x="1097.3663"
+     y="464.45502"
+     class="box-body"
+     id="text18">Track <tspan
+   style="font-weight:bold"
+   id="tspan17">RMS Jerk</tspan><tspan
+   style="font-weight:bold"
+   id="tspan18">Action Acceleration Metric (A-AI)</tspan> to penalize unsafe, jerky motions.⁴</text>
+  <rect
+     x="729.05042"
+     y="519.45502"
+     width="738.61584"
+     height="120"
+     rx="17.044981"
+     fill="url(#grad-m2)"
+     id="rect18"
+     style="fill:url(#grad-m2);stroke-width:1.06599" />
+  <text
+     x="1097.3663"
+     y="564.45502"
+     class="box-title"
+     id="text19">Constraint Adherence (for &quot;liquid glass&quot;)</text>
+  <text
+     x="1097.3663"
+     y="604.45502"
+     class="box-body"
+     id="text20">Track <tspan
+   style="font-weight:bold"
+   id="tspan19">Path Orientation Violation (POV)</tspan> to measure spillage by tracking if an object is kept upright.⁵</text>
+  <rect
+     x="730.04407"
+     y="659.45502"
+     width="737.93488"
+     height="120"
+     rx="17.029268"
+     fill="url(#grad-m3)"
+     id="rect20"
+     style="fill:url(#grad-m3);stroke-width:1.0655" />
+  <text
+     x="1097.3663"
+     y="704.45502"
+     class="box-title"
+     id="text21">Efficiency (for long tasks)</text>
+  <text
+     x="1097.3663"
+     y="744.45502"
+     class="box-body"
+     id="text22">Track <tspan
+   style="font-weight:bold"
+   id="tspan21">Energy Utilization Efficiency ($f_U$)</tspan>, a true physics-based metric, not just path length.⁶</text>
+  <text
+     x="100"
+     y="850"
+     font-size="14px"
+     fill="#808080"
+     id="text23"><tspan
+       sodipodi:role="line"
+       id="tspan23"
+       x="100"
+       y="850">Sources: ¹[arXiv:2403.09227] BEHAVIOR-1K (2024). | ²[arXiv:2405.16510] Planning with Multi-Constraints... (2024). | ³[arXiv:2507.17049] Evaluating Uncertainty and Quality... (2025). | ⁴[openreview.net/pdf?id=OXQSa9CjR7] STABLE-FAST (2025). |</tspan><tspan
+       sodipodi:role="line"
+       id="tspan24"
+       x="100"
+       y="867.5">⁵[arXiv:2409.01652] ReKep (2024). | ⁶[arXiv:2508.06295] Evaluating Robot Program Performance... (2025).</tspan></text>
+</svg>
