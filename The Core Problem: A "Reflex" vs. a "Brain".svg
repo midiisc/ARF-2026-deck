@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   font-family="Segoe UI, Calibri, sans-serif"
+   version="1.1"
+   id="svg36"
+   sodipodi:docname="The Core Problem: A &quot;Reflex&quot; vs. a &quot;Brain&quot;.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.723919"
+     inkscape:cx="1155.516"
+     inkscape:cy="503.50937"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="66"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg36" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="grad-problem"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#D46A4A;"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#A84A6A;"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="grad-solution"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#2E4A8A;"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#3B8A8A;"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <style
+     id="style4">
+    .title { font-size: 44px; font-weight: bold; fill: #111; }
+    .subtitle { font-size: 20px; fill: #333; }
+    .header { font-size: 28px; font-weight: bold; fill: white; text-anchor: middle; }
+    .body { font-size: 18px; fill: white; }
+    .body-strong { font-weight: bold; }
+    .list-header { font-size: 22px; font-weight: bold; fill: white; margin-top: 20px;}
+  </style>
+  <rect
+     width="100%"
+     height="100%"
+     fill="#FFFFFF"
+     id="rect4" />
+  <text
+     x="50"
+     y="70"
+     class="title"
+     id="text4">The Core Problem: A &quot;Reflex&quot; vs. a &quot;Brain&quot;</text>
+  <text
+     x="50"
+     y="105"
+     class="subtitle"
+     id="text5">Why a VLA-Alone is insufficient for high-stakes robotics.</text>
+  <line
+     x1="50"
+     y1="90"
+     x2="110"
+     y2="90"
+     stroke="#3B8A8A"
+     stroke-width="6"
+     id="line5" />
+  <rect
+     x="50"
+     y="150"
+     width="890"
+     height="850"
+     fill="url(#grad-problem)"
+     rx="15"
+     id="rect5" />
+  <text
+     x="91.161903"
+     y="843.34552"
+     class="list-header"
+     id="text16-3"
+     style="font-weight:bold;font-size:22px;fill:#ffffff">Problem 5:NoTaskLogic (Context-Blindness)</text>
+  <text
+     x="93.474144"
+     y="869.03113"
+     class="body"
+     id="text18-6"
+     style="font-size:18px;fill:#ffffff"><tspan
+       sodipodi:role="line"
+       id="tspan37"
+       x="93.474144"
+       y="869.03113">It doesn't know why it's acting. It will start cutting a tomato</tspan><tspan
+       sodipodi:role="line"
+       id="tspan38"
+       x="93.474144"
+       y="891.53113">before washing it because it lacks the high-level recipe or plan.</tspan></text>
+  <text
+     x="495"
+     y="200"
+     class="header"
+     id="text6">VLA-Alone (The Black-Box Reflex)</text>
+  <line
+     x1="70"
+     y1="230"
+     x2="920"
+     y2="230"
+     stroke="white"
+     stroke-opacity="0.3"
+     stroke-width="1"
+     id="line6" />
+  <text
+     x="100"
+     y="280"
+     class="list-header"
+     id="text7">Problem 1: Brittleness (No &quot;Common Sense&quot;)</text>
+  <text
+     x="96.733009"
+     y="277.55072"
+     class="body"
+     id="text9"><tspan
+       x="96.733009"
+       dy="27"
+       id="tspan7">It might learn to be gentle with a 'cup', but it will</tspan><tspan
+       x="96.733009"
+       dy="27"
+       class="body-strong"
+       id="tspan8">crush a novel 'lightbulb'</tspan><tspan
+       x="96.733009"
+       dy="27"
+       id="tspan9">because it has no explicit concept of &quot;fragility.&quot;</tspan></text>
+  <text
+     x="93.047379"
+     y="416.92999"
+     class="list-header"
+     id="text10">Problem 2: Static Knowledge (Not Agile)</text>
+  <text
+     x="92.608597"
+     y="415.76691"
+     class="body"
+     id="text12"><tspan
+       x="92.608597"
+       dy="27"
+       id="tspan10">A new safety rule (&quot;Avoid red tags&quot;) requires collecting</tspan><tspan
+       x="92.608597"
+       dy="27"
+       id="tspan11">thousands of new demos and</tspan><tspan
+       x="92.608597"
+       dy="27"
+       class="body-strong"
+       id="tspan12">retraining the entire multi-billion parameter model for weeks.</tspan></text>
+  <text
+     x="94.267319"
+     y="551.9906"
+     class="list-header"
+     id="text13">Problem 3: The Black Box (Un-Explainable)</text>
+  <text
+     x="92.633827"
+     y="552.87836"
+     class="body"
+     id="text15"><tspan
+       x="92.633827"
+       dy="27"
+       id="tspan13">Question: &quot;Why did the robot fail?&quot;</tspan><tspan
+       x="92.633827"
+       dy="27"
+       id="tspan14">Answer: &quot;The model's output logits were 0.05% higher.&quot;</tspan><tspan
+       x="92.633827"
+       dy="27"
+       class="body-strong"
+       id="tspan15">This is un-auditable and untrustworthy.</tspan></text>
+  <text
+     x="94.893433"
+     y="692.30054"
+     class="list-header"
+     id="text16">Problem 4: Poor Long-Horizon Planning</text>
+  <text
+     x="89.650681"
+     y="695.68561"
+     class="body"
+     id="text18"><tspan
+       x="89.650681"
+       dy="27"
+       id="tspan16">A VLA is reactive and good at one-step tasks (&quot;pick up this&quot;).</tspan><tspan
+       x="89.650681"
+       dy="27"
+       id="tspan17">It fails at complex, multi-step tasks because</tspan><tspan
+       x="89.650681"
+       dy="27"
+       class="body-strong"
+       id="tspan18">it has no high-level concept of the plan.</tspan></text>
+  <rect
+     x="980"
+     y="150"
+     width="890"
+     height="850"
+     fill="url(#grad-solution)"
+     rx="15"
+     id="rect18" />
+  <text
+     x="1028.4803"
+     y="843.48132"
+     class="list-header"
+     id="text33-3"
+     style="font-weight:bold;font-size:22px;fill:#ffffff">Solution 5:RobustTask Logic</text>
+  <text
+     x="1027.5176"
+     y="864.29987"
+     class="body"
+     id="text36-2"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"><tspan
+       sodipodi:role="line"
+       id="tspan47">The VLA queries the KB for the task plan first and gets </tspan><tspan
+       sodipodi:role="line"
+       id="tspan48">the correct, logical sequence: </tspan><tspan
+       sodipodi:role="line"
+       id="tspan49">[1. wash_vegetables, 2. prep_vegetables].</tspan></text>
+  <text
+     x="1425"
+     y="200"
+     class="header"
+     id="text19">Our Solution (The Reasoned-Reflex)</text>
+  <line
+     x1="1000"
+     y1="230"
+     x2="1850"
+     y2="230"
+     stroke="white"
+     stroke-opacity="0.3"
+     stroke-width="1"
+     id="line19" />
+  <text
+     x="1030"
+     y="280"
+     class="list-header"
+     id="text20">Solution 1: Explicit, Generalizable Knowledge</text>
+  <text
+     x="1029.6172"
+     y="300.14655"
+     class="body"
+     id="text23"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"><tspan
+       sodipodi:role="line"
+       id="tspan39">The VLA sees the lightbulb, queries the KB, and </tspan><tspan
+       sodipodi:role="line"
+       id="tspan40">gets an explicit fact:</tspan><tspan
+       sodipodi:role="line"
+       id="tspan41">`(Property: fragile, Max_Force: 1N)`. Generalization is instant.</tspan></text>
+  <text
+     x="1032.6165"
+     y="419.57547"
+     class="list-header"
+     id="text24">Solution 2: Real-Time Updatability</text>
+  <text
+     x="1033.1215"
+     y="438.88058"
+     class="body"
+     id="text28"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"><tspan
+       sodipodi:role="line"
+       id="tspan42">An operator adds one line to the KB:</tspan><tspan
+       sodipodi:role="line"
+       id="tspan43">`(Property: red_tag, Constraint: do_not_touch)`</tspan><tspan
+       sodipodi:role="line"
+       id="tspan44">The update is instant and 100% reliable.</tspan></text>
+  <text
+     x="1029.564"
+     y="546.0022"
+     class="list-header"
+     id="text29">Solution 3: Explainable Auditable Actions</text>
+  <text
+     x="1030.2859"
+     y="540.77728"
+     class="body"
+     id="text32"><tspan
+       x="1030.2859"
+       dy="27"
+       id="tspan29">Question: &quot;Why did it reject the board?&quot;</tspan><tspan
+       x="1030.2859"
+       dy="27"
+       id="tspan30">Answer: &quot;It queried the KB for the '3 defect' rule</tspan><tspan
+       x="1030.2859"
+       dy="27"
+       id="tspan31">and the KB returned 'reject bin'.&quot;</tspan><tspan
+       x="1030.2859"
+       dy="27"
+       class="body-strong"
+       id="tspan32">The action is explainable and auditable.</tspan></text>
+  <text
+     x="1029.5814"
+     y="706.63599"
+     class="list-header"
+     id="text33">Solution 4: Robust Long-Horizon Planning</text>
+  <text
+     x="1028.6187"
+     y="727.45453"
+     class="body"
+     id="text36"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"><tspan
+       sodipodi:role="line"
+       id="tspan45">The VLA queries the KB for the recipe first. The KB returns </tspan><tspan
+       sodipodi:role="line"
+       id="tspan46">the correct, high-level steps: `[1. wash_vegetables, ...]`</tspan></text>
+</svg>

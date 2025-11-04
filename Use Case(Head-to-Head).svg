@@ -1,0 +1,92 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Calibri, sans-serif">
+
+  <defs>
+    <linearGradient id="grad-problem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D46A4A;" />
+      <stop offset="100%" style="stop-color:#A84A6A;" />
+    </linearGradient>
+    <linearGradient id="grad-solution" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E4A8A;" />
+      <stop offset="100%" style="stop-color:#3B8A8A;" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font-size: 44px; font-weight: bold; fill: #111; }
+    .header-bad { font-size: 28px; font-weight: bold; fill: #D9534F; }
+    .header-good { font-size: 28px; font-weight: bold; fill: #5CB85C; }
+    .task-title { font-size: 24px; font-weight: bold; fill: #333; }
+    .body { font-size: 16px; fill: white; }
+    .body-strong { font-weight: bold; }
+    .fail { fill: #FFCFCF; font-weight: bold; }
+    .success { fill: #D1FFD1; font-weight: bold; }
+    .query { fill: #C9EEFF; font-style: italic; }
+    .kb-return { fill: #FFFFFF; font-style: italic; font-weight: bold; }
+    .result { font-size: 18px; text-anchor: middle; font-weight: bold; fill: white;}
+  </style>
+
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+  
+  <text x="50" y="70" class="title">Use Case: VLA-Alone vs. KB-VLA (Head-to-Head)</text>
+  <line x1="50" y1="90" x2="110" y2="90" stroke="#3B8A8A" stroke-width="6"/>
+
+  <text x="475" y="140" class="header-bad" text-anchor="middle">VLA-Alone (The "Black-Box Reflex")</text>
+  <text x="1445" y="140" class="header-good" text-anchor="middle">Our KB-Enhanced VLA (The "Reasoned-Reflex")</text>
+  <line x1="960" y1="160" x2="960" y2="1000" stroke="#E0E0E0" stroke-width="2"/>
+
+  <text x="50" y="190" class="task-title">Task 1: Service Robot - "Prepare Greek Salad"</text>
+  
+  <rect x="50" y="220" width="890" height="300" rx="15" fill="url(#grad-problem)"/>
+  <text x="70" y="250" class="body">
+    <tspan x="70" dy="1.8em" class="body-strong">Sees:</tspan>
+    <tspan x="120" dy="0">`round tomato`, `knife`, and a new `glass bottle`.</tspan>
+    <tspan x="70" dy="1.8em" class="fail">1. Logic Failure:</tspan>
+    <tspan x="200" dy="0">Immediately cuts the tomato (wrong sequence).</tspan>
+    <tspan x="70" dy="1.8em" class="fail">2. Physics Failure:</tspan>
+    <tspan x="220" dy="0">Tries to cut the round tomato; it rolls away.</tspan>
+    <tspan x="70" dy="1.8em" class="fail">3. Brittleness Failure:</tspan>
+    <tspan x="240" dy="0">Grips the new glass bottle with 50N default force,</tspan>
+    <tspan x="240" dy="1.5em">shattering it.</tspan>
+  </text>
+  <text x="495" y="480" class="result">Result: 45% Completion, Unsafe</text>
+
+  <rect x="980" y="220" width="890" height="300" rx="15" fill="url(#grad-solution)"/>
+  <text x="1000" y="250" class="body">
+    <tspan x="1000" dy="1.8em" class="success">1. Logic Success:</tspan>
+    <tspan x="1150" dy="0" class="query">Query: "Recipe?"</tspan>
+    <tspan x="1150" dy="1.5em" class="kb-return">↳ KB: "[1. wash, 2. prep]"</tspan>
+    <tspan x="1000" dy="1.8em" class="success">2. Physics Success:</tspan>
+    <tspan x="1170" dy="0" class="query">Query: "How to cut 'round tomato'?"</tspan>
+    <tspan x="1170" dy="1.5em" class="kb-return">↳ KB: "Cut flat side first"</tspan>
+    <tspan x="1000" dy="1.8em" class="success">3. Brittleness Success:</tspan>
+    <tspan x="1200" dy="0" class="query">Query: "Properties of 'glass bottle'?"</tspan>
+    <tspan x="1200" dy="1.5em" class="kb-return">↳ KB: "(Property: fragile, Max_Force: 2N)"</tspan>
+  </text>
+  <text x="1425" y="480" class="result">Result: 88% Completion, Safe</text>
+
+  <text x="50" y="560" class="task-title">Task 2: Industrial Robot - "Inspect Circuit Board"</text>
+
+  <rect x="50" y="590" width="890" height="300" rx="15" fill="url(#grad-problem)"/>
+  <text x="70" y="620" class="body">
+    <tspan x="70" dy="1.8em" class="body-strong">Sees:</tspan>
+    <tspan x="120" dy="0">Board with 3 `dull solder joints` (defects).</tspan>
+    <tspan x="70" dy="1.8em" class="fail">1. Knowledge Failure:</tspan>
+    <tspan x="240" dy="0">Scans randomly; doesn't recognize</tspan>
+    <tspan x="240" dy="1.5em">"dull joint" as a "cold_solder" defect.</tspan>
+    <tspan x="70" dy="1.8em" class="fail">2. Decision Failure:</tspan>
+    <tspan x="220" dy="0">Lacks decision logic. Passes the defective board.</tspan>
+  </text>
+  <text x="495" y="850" class="result">Result: 52% Accuracy, 40% False Positives</text>
+
+  <rect x="980" y="590" width="890" height="300" rx="15" fill="url(#grad-solution)"/>
+  <text x="1000" y="620" class="body">
+    <tspan x="1000" dy="1.8em" class="success">1. Knowledge Success:</tspan>
+    <tspan x="1200" dy="0" class="query">Query: "Defect signature 'dull'?"</tspan>
+    <tspan x="1200" dy="1.5em" class="kb-return">↳ KB: "='cold_solder' (Defect)"</tspan>
+    <tspan x="1000" dy="1.8em" class="success">2. Decision Success:</tspan>
+    <tspan x="1180" dy="0" class="query">Query: "Rule for '3 defects'?"</tspan>
+    <tspan x="1180" dy="1.5em" class="kb-return">↳ KB: ">=3 defects -> reject bin"</tspan>
+  </text>
+  <text x="1425" y="850" class="result">Result: 86% Accuracy, 12% False Positives</text>
+
+</svg>
