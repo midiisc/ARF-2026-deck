@@ -1,7 +1,7 @@
 <svg width="1600" height="900" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Calibri, sans-serif">
   <rect width="100%" height="100%" fill="#FFFFFF" />
   
-  <text x="100" y="100" font-size="44px" font-weight="bold" fill="#000000">Layer 1: Component Diagnostics & SOTA Baselines</text>
+  <text x="100" y="100" font-size="44px" font-weight="bold" fill="#000000">Layer 1: Component Diagnostics &amp; SOTA Baselines</text>
   <line x1="100" y1="125" x2="160" y2="125" stroke="#007F60" stroke-width="5" />
   
   <text x="100" y="180" font-size="22px" fill="#404040"
@@ -28,7 +28,7 @@
     <tspan x="130" dy="2.0em">• Question: Does our VLA</tspan>
     <tspan x="130" dy="1.4em">  foundation (pre-trained on Open</tspan>
     <tspan x="130" dy="1.4em">  X-Embodiment) understand</tspan>
-    <tspan x="130" dy="1.4em">  low-level physics & affordances?¹</tspan>
+    <tspan x="130" dy="1.4em">  low-level physics &amp; affordances?¹</tspan>
     <tspan x="130" dy="2.0em">• KPI: MCQ Accuracy</tspan>
     <tspan x="130" dy="2.0em">• SOTA Baseline: Gemini 2.0 Pro</tspan>
     <tspan x="130" dy="1.4em">  achieves ~70% accuracy.²</tspan>
@@ -49,7 +49,7 @@
   </text>
   
   <rect x="1050" y="300" width="450" height="500" rx="15" fill="url(#grad-l3)" />
-  <text x="1080" y="350" class="box-title">3. CoT Reasoning & Explainability</text>
+  <text x="1080" y="350" class="box-title">3. CoT Reasoning &amp; Explainability</text>
   <text x="1080" y="400" class="box-body">
     <tspan x="1080" dy="1.4em">• Benchmark: ERQA</tspan>
     <tspan x="1080" dy="2.0em">• Question: Does our CoT module</tspan>

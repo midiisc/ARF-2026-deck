@@ -1,7 +1,7 @@
 <svg width="1600" height="900" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Calibri, sans-serif">
   <rect width="100%" height="100%" fill="#FFFFFF" />
   
-  <text x="100" y="100" font-size="44px" font-weight="bold" fill="#000000">Layers 2 & 3: Integrated System Performance</text>
+  <text x="100" y="100" font-size="44px" font-weight="bold" fill="#000000">Layers 2 &amp; 3: Integrated System Performance</text>
   <line x1="100" y1="125" x2="160" y2="125" stroke="#007F60" stroke-width="5" />
   
   <style>

@@ -8,8 +8,8 @@
     font-family="Segoe UI, Calibri, sans-serif">
     <tspan x="100" dy="1.2em">A complex VLA-KB-CoT planner cannot be evaluated monolithically. A failure in the final task</tspan>
     <tspan x="100" dy="1.2em">provides no insight into the root cause.¹</tspan>
-    <tspan x="100" dy="1.2em">We will adopt a rigorous protocol to test the agent at all levels—from its core <tspan style="font-weight:bold;">reasoning</tspan></tspan>
-    <tspan x="100" dy="1.2em">and <tspan style="font-weight:bold;">generalization</tspan> to its <tspan style="font-weight:bold;">long-horizon</tspan> planning capabilities.²</tspan>
+    <tspan x="100" dy="1.2em">We will adopt a rigorous protocol to test the agent at all levels, from its individual components</tspan>
+    <tspan x="100" dy="1.2em">to the fully integrated system, allowing for precise bottleneck identification.²</tspan>
   </text>
   
   <defs>
@@ -34,7 +34,7 @@
     <tspan x="316.5" dy="1.5em"><tspan style="font-weight:bold;">KB Physics</tspan> → PhysBench</tspan>
     <tspan x="316.5" dy="1.5em"><tspan style="font-weight:bold;">CoT Reasoning</tspan> → ERQA</tspan>
   </text>
-  <text x="316.5" y="700" class="diag-subtitle">KPI: MCQ Accuracy & Uplift</text>
+  <text x="316.5" y="700" class="diag-subtitle">KPI: MCQ Accuracy &amp; Uplift</text>
   <line x1="533" y1="575" x2="583" y2="575" class="diag-arrow" />
 
   <rect x="583" y="400" width="434" height="350" rx="15" fill="url(#grad-l2)" />
