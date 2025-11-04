@@ -1,221 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="1600"
-   height="900"
-   font-family="Segoe UI, Calibri, sans-serif"
-   version="1.1"
-   id="svg23"
-   sodipodi:docname="slide23.svg"
-   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview23"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.82625"
-     inkscape:cx="800"
-     inkscape:cy="449.62179"
-     inkscape:window-width="1854"
-     inkscape:window-height="1011"
-     inkscape:window-x="66"
-     inkscape:window-y="32"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg23" />
-  <rect
-     width="100%"
-     height="100%"
-     fill="#FFFFFF"
-     id="rect1" />
-  <text
-     x="100"
-     y="100"
-     font-size="44px"
-     font-weight="bold"
-     fill="#000000"
-     id="text1">Layers 2 &amp; 3: Integrated System Performance</text>
-  <line
-     x1="100"
-     y1="125"
-     x2="160"
-     y2="125"
-     stroke="#007F60"
-     stroke-width="5"
-     id="line1" />
-  <style
-     id="style1">
+<svg width="1600" height="900" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Calibri, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+  
+  <text x="100" y="100" font-size="44px" font-weight="bold" fill="#000000">Layers 2 & 3: Integrated System Performance</text>
+  <line x1="100" y1="125" x2="160" y2="125" stroke="#007F60" stroke-width="5" />
+  
+  <style>
     .col-title { font-size: 28px; font-weight: bold; fill: #000000; }
     .col-body { font-size: 20px; fill: #404040; line-height: 1.4; }
     .box-title { font-size: 24px; font-weight: bold; fill: white; text-anchor: middle; }
     .box-body { font-size: 18px; fill: white; text-anchor: middle; line-height: 1.4; }
   </style>
-  <text
-     x="100"
-     y="220"
-     class="col-title"
-     id="text2">Primary Key Performance Indicator (KPI)</text>
-  <text
-     x="100"
-     y="280"
-     class="col-body"
-     id="text11"
-     style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;line-height:1.4;fill:#404040"><tspan
-       x="100"
-       dy="1.4em"
-       id="tspan3"
-       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Our primary, &quot;bottom-line&quot; KPI is <tspan
-   style="font-weight:normal;fill:#000000;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-   id="tspan2">Task Success Rate (TSR)</tspan>.</tspan><tspan
-       x="100"
-       dy="1.4em"
-       id="tspan4"
-       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">This is defined as the percentage of trials that successfully satisfy</tspan><tspan
-       x="100"
-       dy="1.4em"
-       id="tspan5"
-       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">100% of the task's predefined goal conditions.¹</tspan><tspan
-       x="120"
-       dy="2.4em"
-       id="tspan7"
-       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">• <tspan
-   style="font-weight:normal;fill:#000000;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-   id="tspan6">Home/Service Domain:</tspan> Success is the automated satisfaction</tspan><tspan
-       x="120"
-       dy="1.4em"
-       id="tspan8"
-       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">  of all final BDDL goal predicates (e.g., `is_on(apple, plate)`).²</tspan><tspan
-       x="120"
-       dy="2.4em"
-       id="tspan10"
-       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">• <tspan
-   style="font-weight:normal;fill:#000000;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-   id="tspan9">Industrial Domain:</tspan> Success is the strict, binary geometric</tspan><tspan
-       x="120"
-       dy="1.4em"
-       id="tspan11"
-       style="-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-family:'Segoe UI', Calibri, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">  accuracy of the final assembly (e.g., &quot;peg is flush&quot;).³</tspan></text>
-  <text
-     x="850"
-     y="220"
-     class="col-title"
-     id="text12">Performance Benchmarks (Layer 3)</text>
-  <defs
-     id="defs15">
-    <linearGradient
-       id="grad-home"
-       x1="0%"
-       y1="0%"
-       x2="100%"
-       y2="100%">
-      <stop
-         offset="0%"
-         style="stop-color:#3B8A5A;"
-         id="stop12" />
-      <stop
-         offset="100%"
-         style="stop-color:#3B8A8A;"
-         id="stop13" />
-    </linearGradient>
-    <linearGradient
-       id="grad-industry"
-       x1="0%"
-       y1="0%"
-       x2="100%"
-       y2="100%">
-      <stop
-         offset="0%"
-         style="stop-color:#7A4A8A;"
-         id="stop14" />
-      <stop
-         offset="100%"
-         style="stop-color:#A84A6A;"
-         id="stop15" />
-    </linearGradient>
+
+  <text x="100" y="220" class="col-title">Primary Key Performance Indicator (KPI)</text>
+  <text x="100" y="280" class="col-body">
+    <tspan x="100" dy="1.4em">Our primary, "bottom-line" KPI is <tspan style="font-weight:bold; fill:#000000;">Task Success Rate (TSR)</tspan>.</tspan>
+    <tspan x="100" dy="1.4em">This is defined as the percentage of trials that successfully satisfy</tspan>
+    <tspan x="100" dy="1.4em">100% of the task's predefined goal conditions.¹</tspan>
+    
+    <tspan x="120" dy="2.4em">• <tspan style="font-weight:bold; fill:#000000;">Home/Service Domain:</tspan> Success is the automated satisfaction</tspan>
+    <tspan x="120" dy="1.4em">  of all final BDDL goal predicates (e.g., `is_on(apple, plate)`).²</tspan>
+    
+    <tspan x="120" dy="2.4em">• <tspan style="font-weight:bold; fill:#000000;">Industrial Domain:</tspan> Success is the strict, binary geometric</tspan>
+    <tspan x="120" dy="1.4em">  accuracy of the final assembly (e.g., "peg is flush").³</tspan>
+  </text>
+  
+  <text x="850" y="220" class="col-title">Performance Benchmarks (Layer 3)</text>
+  
+  <defs>
+    <linearGradient id="grad-home" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#3B8A5A;"/><stop offset="100%" style="stop-color:#3B8A8A;"/></linearGradient>
+    <linearGradient id="grad-industry" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#7A4A8A;"/><stop offset="100%" style="stop-color:#A84A6A;"/></linearGradient>
   </defs>
-  <rect
-     x="850"
-     y="280"
-     width="650"
-     height="250"
-     rx="15"
-     fill="url(#grad-home)"
-     id="rect15" />
-  <text
-     x="1175"
-     y="340"
-     class="box-title"
-     id="text15">Home/Service: BEHAVIOR-1K</text>
-  <text
-     x="1172.2343"
-     y="369.41824"
-     class="box-body"
-     id="text18"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.4;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#ffffff"><tspan
-       x="1172.2343"
-       dy="29.866667"
-       id="tspan15"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Why: 1,000 human-centric tasks in a</tspan><tspan
-       x="1172.2343"
-       dy="29.866667"
-       id="tspan16"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">high-fidelity simulation (OmniGibson).⁴</tspan><tspan
-       x="1172.2343"
-       dy="29.866667"
-       id="tspan17"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Its BDDL (predicate logic) evaluation</tspan><tspan
-       x="1172.2343"
-       dy="29.866667"
-       id="tspan18"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">perfectly aligns with our symbolic CoT planner.²</tspan></text>
-  <rect
-     x="850"
-     y="560"
-     width="650"
-     height="250"
-     rx="15"
-     fill="url(#grad-industry)"
-     id="rect18" />
-  <text
-     x="1175"
-     y="620"
-     class="box-title"
-     id="text19">Industrial/Assembly: RAMP</text>
-  <text
-     x="1177.1753"
-     y="646.84216"
-     class="box-body"
-     id="text22"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.4;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#ffffff"><tspan
-       x="1177.1753"
-       dy="29.866667"
-       id="tspan19"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Why: Tests high-precision, contact-rich</tspan><tspan
-       x="1177.1753"
-       dy="29.866667"
-       id="tspan20"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">geometric reasoning. Its strict,</tspan><tspan
-       x="1177.1753"
-       dy="29.866667"
-       id="tspan21"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">binary pass/fail accuracy (peg insertion)</tspan><tspan
-       x="1177.1753"
-       dy="29.866667"
-       id="tspan22"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Segoe UI', Calibri, sans-serif;-inkscape-font-specification:'Segoe UI, Calibri, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">is a realistic, necessary industrial test.³</tspan></text>
-  <text
-     x="100"
-     y="850"
-     font-size="14px"
-     fill="#808080"
-     id="text23">
+  
+  <rect x="850" y="280" width="650" height="250" rx="15" fill="url(#grad-home)" />
+  <text x="1175" y="340" class="box-title">Long-Horizon (Home): BEHAVIOR-1K</text>
+  <text x="1175" y="380" class="box-body">
+    <tspan x="1175" dy="1.4em">Why: 1,000 human-centric tasks in a</tspan>
+    <tspan x="1175" dy="1.4em">high-fidelity simulation (OmniGibson).⁴</tspan>
+    <tspan x="1175" dy="1.4em">Its BDDL (predicate logic) evaluation</tspan>
+    <tspan x="1175" dy="1.4em">perfectly aligns with our symbolic CoT planner.²</tspan>
+  </text>
+  
+  <rect x="850" y="560" width="650" height="250" rx="15" fill="url(#grad-industry)" />
+  <text x="1175" y="620" class="box-title">Long-Horizon (Industry): RAMP</text>
+  <text x="1175" y="660" class="box-body">
+    <tspan x="1175" dy="1.4em">Why: Tests high-precision, contact-rich</tspan>
+    <tspan x="1175" dy="1.4em">geometric reasoning. Its strict,</tspan>
+    <tspan x="1175" dy="1.4em">binary pass/fail accuracy (peg insertion)</tspan>
+    <tspan x="1175" dy="1.4em">is a realistic, necessary industrial test.³</tspan>
+  </text>
+  
+  <text x="100" y="850" font-size="14px" fill="#808080">
     Sources: ¹[arXiv:2510.01642] FailSafe (2025). | ²[arXiv:2403.09227] BEHAVIOR-1K (2024). | ³[arXiv:2305.09644] RAMP (2023). | ⁴[behavior.stanford.edu] BEHAVIOR-1K Homepage.
   </text>
 </svg>
