@@ -1,0 +1,90 @@
+<svg width="1800" height="1000" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Calibri, sans-serif">
+  
+  <defs>
+    <style>
+      .title { font-size: 36px; font-weight: bold; fill: white; text-anchor: start; }
+      .subtitle { font-size: 22px; font-weight: bold; fill: #66ffaa; text-anchor: start; } /* Light Green/Teal */
+      .term { font-size: 15px; font-weight: bold; fill: white; }
+      .desc { font-size: 15px; fill: #e0e0e0; }
+    </style>
+  </defs
+
+  <rect width="100%" height="100%" fill="#0E1A2B" />
+  
+  <text x="50" y="80" class="title">Acronyms & Key Concepts (2/2): Acronyms (M-Z)</text>
+  <line x1="50" y1="100" x2="1750" y2="100" stroke="#3B8A8A" stroke-width="3" />
+
+  <svg x="50" y="150" width="825" height="800">
+    <text x="0" y="30" class="subtitle">Acronyms (M-R)</text>
+    <text x="0" y="80" class="body">
+      <tspan x="0" dy="0" class="term">Mask R-CNN (Mask Region-based Convolutional Neural Network)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A SOTA vision model used to "see" and create segmentation masks for objects.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">MCQ (Multiple Choice Question)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A format used by evaluation benchmarks (like ERQA and PhysBench) to test the model's reasoning.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">OXE (Open X-Embodiment)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A large-scale, diverse robotics dataset used for pre-training our VLA.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">OWL (Web Ontology Language)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A W3C standard for defining the formal schema (the rules and classes) of our knowledge base.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">PDDL (Planning Domain Definition Language)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A classical symbolic language for defining planning problems, which can be integrated with our KB.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">PRM (Process Reward Model)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A model that scores the *quality* of each intermediate step in a CoT, not just the final outcome.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">PyG (PyTorch Geometric)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A library for building and training Graph Neural Networks (GNNs) with PyTorch.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">RAMP (Robotic Assembly Manipulation and Planning)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A benchmark for testing complex, long-horizon industrial assembly tasks.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">RDF (Resource Description Framework)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A W3C standard for encoding knowledge in a (subject, predicate, object) graph format.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">RLHF (Reinforcement Learning from Human Feedback)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A training technique to align the VLA with human preferences for safety, smoothness, and efficiency.</tspan>
+    </text>
+  </svg>
+  
+  <svg x="925" y="150" width="825" height="800">
+    <text x="0" y="30" class="subtitle">Acronyms (R-Z)</text>
+    <text x="0" y="80" class="body">
+      <tspan x="0" dy="0" class="term">ROS2 (Robot Operating System 2)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: The foundational software framework used to control the RBY-1 robot.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">RSS (Robotics: Science and Systems)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A top-tier single-track conference for robotics research (a publication target).</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">RTKB (Robot Task Knowledge Base)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: The specific KB framework this proposal will develop, tailored for robotic tasks.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">SAM (Segment Anything Model)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A SOTA vision model from Meta AI used in our pipeline to "see" and segment objects.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">SFT (Supervised Fine-Tuning)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: The initial stage of model training, using a dataset of labeled "correct" demonstrations.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">SOTA (State-of-the-Art)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: The most advanced, current benchmark or technology available.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">TRL (Technology Readiness Level)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A 1-9 scale to measure technology maturity; our 3-year goal is TRL 7.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">TSR (Task Success Rate)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: Our primary "bottom-line" KPI, defined as the percentage of trials that satisfy 100% of the task's goals.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">USD (Universal Scene Description)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A 3D scene file format (from Pixar) that we use to get perfect ground-truth data from simulation.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">VLA (Vision-Language-Action Model)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: An AI model that takes visual and language inputs to output robotic actions.</tspan>
+      
+      <tspan x="0" dy="2.2em" class="term">VLM (Vision-Language Model)</tspan>
+      <tspan x="30" dy="1.3em" class="desc">• Definition: A model that understands relationships between images and text. The VLA is a type of VLM that also *acts*.</tspan>
+    </text>
+  </svg>
+  
+</svg>

@@ -1,0 +1,146 @@
+<svg width="1800" height="1000" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Calibri, sans-serif">
+  
+  <defs>
+    <linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A84A6A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D46A4A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E4A8A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B8A8A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B8A5A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B8A8A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad-input" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3A5AD4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E4A8A;stop-opacity:1" />
+    </linearGradient>
+
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white" />
+    </marker>
+  </defs>
+
+  <style>
+    .title { font-size: 36px; font-weight: bold; fill: white; text-anchor: start; }
+    
+    .h1-blue { font-size: 26px; font-weight: bold; fill: #66b3ff; } /* Blue from Q1 */
+    .h1-green { font-size: 26px; font-weight: bold; fill: #66ffaa; } /* Green from Q2 */
+    .h1-purple { font-size: 26px; font-weight: bold; fill: #d0AAff; } /* Purple from Q3 */
+    .h1-orange { font-size: 26px; font-weight: bold; fill: #ffaa66; } /* Orange from Q4 */
+    .h1-red { font-size: 26px; font-weight: bold; fill: #ff6677; } /* Red from CoT */
+    
+    .body { font-size: 20px; fill: #e0e0e0; }
+    
+    /* Diagram Styles */
+    .diag-title { font-size: 24px; font-weight: bold; fill: white; text-anchor: middle; }
+    .diag-subtitle { font-size: 18px; font-weight: bold; fill: white; text-anchor: middle; }
+    .diag-body { font-size: 16px; fill: #e0e0e0; text-anchor: middle; }
+    .diag-label { font-size: 14px; fill: #cccccc; text-anchor: middle; font-style: italic; }
+    .diag-arrow { stroke: white; stroke-width: 2.5; marker-end: url(#arrowhead); fill: none; }
+    .diag-arrow-label { font-size: 16px; font-weight: bold; fill: white; text-anchor: middle; }
+    .diag-result { font-size: 18px; font-weight: bold; fill: #e0e0e0; text-anchor: middle; }
+  </style>
+
+  <rect width="100%" height="100%" fill="#0E1A2B" />
+  
+  <text x="50" y="80" class="title">Table of Contents</text>
+  <line x1="50" y1="100" x2="600" y2="100" stroke="#3B8A8A" stroke-width="3" />
+  
+  <text x="80" y="180" class="body">
+    
+    <tspan x="80" dy="0" class="h1-blue">1. The Vision</tspan>
+    <tspan x="110" dy="1.6em">• Proposal Objectives & Scope</tspan>
+
+    <tspan x="80" dy="3.0em" class="h1-green">2. The Knowledge Engine</tspan>
+    <tspan x="110" dy="1.6em">• Automated Knowledge Extraction: Data Sources</tspan>
+    <tspan x="110" dy="1.6em">• Knowledge Pipeline (1/2): Extraction & Correlation</tspan>
+    <tspan x="110" dy="1.6em">• Knowledge Pipeline (2/2): Population & Fusion</tspan>
+    <tspan x="110" dy="1.6em">• Knowledge Base Architecture</tspan>
+    <tspan x="110" dy="1.6em">• KB Ontology & Schema</tspan>
+
+    <tspan x="80" dy="3.0em" class="h1-purple">3. The Integration & Use Cases</tspan>
+    <tspan x="110" dy="1.6em">• VLA-KB Integration Mechanisms</tspan>
+    <tspan x="110" dy="1.6em">• Detailed VLA-KB Integration Architecture</tspan>
+    <tspan x="110" dy="1.6em">• Use Case: Industrial Quality Control</tspan>
+    <tspan x="110" dy="1.6em">• Use Case: Service Robot Kitchen Prep</tspan>
+
+    <tspan x="80" dy="3.0em" class="h1-orange">4. The Methodology & Plan</tspan>
+    <tspan x="110" dy="1.6em">• VLA Model Selection & Datasets</tspan>
+    <tspan x="110" dy="1.6em">• Training Methods & CoT Techniques</tspan>
+    <tspan x="110" dy="1.6em">• Automated CoT Generation & Refinement</tspan>
+    <tspan x="110" dy="1.6em">• RLHF & Human-in-the-Loop Learning</tspan>
+    <tspan x="110" dy="1.6em">• Multi-Layered Evaluation Protocol</tspan>
+    <tspan x="110" dy="1.6em">• 12-Month Execution Timeline</tspan>
+    <tspan x="110" dy="1.6em">• Three-Year Development Roadmap</tspan>
+    
+    <tspan x="80" dy="3.0em" class="h1-red">5. The Strategic Advantage</tspan>
+    <tspan x="110" dy="1.6em">• GRC Competency: Core Infrastructure</tspan>
+    <tspan x="110" dy="1.6em">• GRC Competency: Strategic Alignment</tspan>
+    <tspan x="110" dy="1.6em">• GRC Competency: Visual Evidence</tspan>
+    <tspan x="110" dy="1.6em">• Expected Outcomes & Research Impact</tspan>
+  </text>
+  
+  <g transform="translate(950, 150)">
+    <rect width="800" height="750" fill="#1A263A" rx="15" stroke="#3B8A8A" stroke-width="1"/>
+    
+    <text x="200" y="50" class="diag-title" fill="#FF8888">The Problem: Standard VLA</text>
+    
+    <rect x="50" y="100" width="300" height="80" rx="10" fill="url(#grad-input)"/>
+    <text x="200" y="135" class="diag-subtitle">Visual Input +</text>
+    <text x="200" y="160" class="diag-subtitle">Language Goal</text>
+    
+    <line x1="200" y1="180" x2="200" y2="210" class="diag-arrow" />
+
+    <rect x="50" y="210" width="300" height="100" rx="10" fill="url(#grad-red)" />
+    <text x="200" y="265" class="diag-subtitle">VLA Model (Baseline)</text>
+    
+    <text x="200" y="345" class="diag-title" fill="#FF8888">"BLIND" to Context</text>
+    <text x="200" y="375" class="diag-body">
+      <tspan x="200" dy="0">Lacks recipe, physics, or safety rules.</tspan>
+    </text>
+    
+    <line x1="200" y1="310" x2="200" y2="440" class="diag-arrow" />
+    
+    <text x="200" y="470" class="diag-result">Result: 45% completion</text>
+    <text x="200" y="495" class="diag-result">Result: 52% accuracy</text>
+    <text x="200" y="520" class="diag-result" fill="#FF8888">Unsafe knife handling</text>
+    <text x="200" y="545" class="diag-result" fill="#FF8888">Random sorting</text>
+
+    <text x="600" y="50" class="diag-title" fill="#88FF88">Our Solution: KB-Enhanced VLA</text>
+    
+    <rect x="450" y="100" width="300" height="80" rx="10" fill="url(#grad-input)"/>
+    <text x="600" y="135" class="diag-subtitle">Visual Input +</text>
+    <text x="600" y="160" class="diag-subtitle">Language Goal</text>
+    
+    <line x1="600" y1="180" x2="600" y2="210" class="diag-arrow" />
+    
+    <rect x="450" y="210" width="300" height="120" rx="10" fill="url(#grad-blue)" />
+    <text x="600" y="250" class="diag-subtitle">VLA Model (OpenVLA)</text>
+    <text x="600" y="280" class="diag-label">Handles Perception & Action</text>
+    
+    <rect x="450" y="400" width="300" height="120" rx="10" fill="url(#grad-green)" />
+    <text x="600" y="440" class="diag-subtitle">Knowledge Base (RTKB)</text>
+    <text x="600" y="470" class="diag-label">Provides Knowledge & Reasoning</text>
+    
+    <line x1="600" y1="520" x2="600" y2="550" class="diag-arrow" />
+    
+    <text x="600" y="580" class="diag-result">Result: 88% completion</text>
+    <text x="600" y="605" class="diag-result">Result: 86% accuracy</text>
+    <text x="600" y="630" class="diag-result" fill="#88FF88">Safe tool handling</text>
+    <text x="600" y="655" class="diag-result" fill="#88FF88">IPC-guided inspection</text>
+    
+    <path d="M 525 330 Q 525 400, 525 400" class="diag-arrow" />
+    <text x="500" y="365" class="diag-arrow-label" text-anchor="end" fill="#aaa">1. Query</text>
+    <text x="490" y="385" class="diag-label" text-anchor="end">"Task $\rightarrow$ KB: recipe & tools?"</text>
+    
+    <path d="M 675 400 Q 675 330, 675 330" class="diag-arrow" />
+    <text x="700" y="365" class="diag-arrow-label" text-anchor="start" fill="#aaa">2. Context</text>
+    <text x="710" y="385" class="diag-label" text-anchor="start">"Returns: `chef_knife`, `cut flat first`"</text>
+
+    <line x1="400" y1="20" x2="400" y2="730" stroke="white" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="10"/>
+  </g>
+  
+</svg>
